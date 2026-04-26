@@ -5,12 +5,94 @@ import Latex from 'react-latex-next';
 import { Fragment } from 'react';
 import { getLibraryLink } from '@/lib/libraryLink';
 
+// Algunos campos guardan saltos de línea como `\newline` o, en modo texto, `\\`.
+// KaTeX no procesa `\newline` fuera de math mode, así que aparece literal.
+// Necesitamos partir el string en saltos REALES, pero solo en zonas de TEXTO:
+// si splitteamos `\\` dentro de `\begin{cases}...\\...\end{cases}` rompemos
+// la fórmula. Este splitter respeta `$...$`, `$$...$$`, `\(...\)` y `\[...\]`.
+function splitOutsideMath(text: string): string[] {
+  const segments: string[] = [];
+  let buf = '';
+  let i = 0;
+
+  const startsWith = (s: string) => text.startsWith(s, i);
+  const consumeUntil = (close: string) => {
+    const end = text.indexOf(close, i + 1);
+    if (end === -1) {
+      buf += text.slice(i);
+      i = text.length;
+    } else {
+      buf += text.slice(i, end + close.length);
+      i = end + close.length;
+    }
+  };
+
+  while (i < text.length) {
+    if (startsWith('$$')) {
+      buf += '$$';
+      i += 2;
+      const end = text.indexOf('$$', i);
+      if (end === -1) {
+        buf += text.slice(i);
+        i = text.length;
+      } else {
+        buf += text.slice(i, end + 2);
+        i = end + 2;
+      }
+      continue;
+    }
+    if (text[i] === '$') {
+      consumeUntil('$');
+      continue;
+    }
+    if (startsWith('\\(')) {
+      buf += '\\(';
+      i += 2;
+      const end = text.indexOf('\\)', i);
+      if (end === -1) {
+        buf += text.slice(i);
+        i = text.length;
+      } else {
+        buf += text.slice(i, end + 2);
+        i = end + 2;
+      }
+      continue;
+    }
+    if (startsWith('\\[')) {
+      buf += '\\[';
+      i += 2;
+      const end = text.indexOf('\\]', i);
+      if (end === -1) {
+        buf += text.slice(i);
+        i = text.length;
+      } else {
+        buf += text.slice(i, end + 2);
+        i = end + 2;
+      }
+      continue;
+    }
+    if (startsWith('\\newline')) {
+      segments.push(buf);
+      buf = '';
+      i += '\\newline'.length;
+      continue;
+    }
+    if (startsWith('\\\\')) {
+      segments.push(buf);
+      buf = '';
+      i += 2;
+      continue;
+    }
+    buf += text[i];
+    i++;
+  }
+  if (buf) segments.push(buf);
+  return segments.map((s) => s.trim()).filter((s) => s.length > 0);
+}
+
 const renderLatex = (text: string | null | undefined) => {
-  if (!text) return "-";
-  const parts = text
-    .split(/\s*\\newline\s*|\s*\\\\\s*/g)
-    .map((p) => p.trim())
-    .filter((p) => p.length > 0);
+  if (!text) return '-';
+  const parts = splitOutsideMath(text);
   if (parts.length <= 1) {
     return <Latex strict={false}>{text}</Latex>;
   }
