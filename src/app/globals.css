@@ -7704,12 +7704,14 @@ blockquote {
   align-items: center;
   justify-content: space-between;
   gap: 16px;
+  margin-top: 20px;
   margin-bottom: 8px;
 }
 
 .ppi-title-row h2 {
   margin: 0;
   flex: 1 1 auto;
+  min-width: 0;
 }
 
 .library-link-btn {
