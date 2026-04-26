@@ -5,27 +5,14 @@ import Latex from 'react-latex-next';
 import { Fragment } from 'react';
 import { getLibraryLink } from '@/lib/libraryLink';
 
-// Algunos campos guardan saltos de línea como `\newline` o, en modo texto, `\\`.
-// KaTeX no procesa `\newline` fuera de math mode, así que aparece literal.
-// Necesitamos partir el string en saltos REALES, pero solo en zonas de TEXTO:
-// si splitteamos `\\` dentro de `\begin{cases}...\\...\end{cases}` rompemos
-// la fórmula. Este splitter respeta `$...$`, `$$...$$`, `\(...\)` y `\[...\]`.
+// Splitter de saltos de línea fuera de math mode.
+// Respeta `$...$`, `$$...$$`, `\(...\)` y `\[...\]` (NO splittea `\\` adentro
+// de un \begin{cases}...\\...\end{cases}, p.ej.).
 function splitOutsideMath(text: string): string[] {
   const segments: string[] = [];
   let buf = '';
   let i = 0;
-
   const startsWith = (s: string) => text.startsWith(s, i);
-  const consumeUntil = (close: string) => {
-    const end = text.indexOf(close, i + 1);
-    if (end === -1) {
-      buf += text.slice(i);
-      i = text.length;
-    } else {
-      buf += text.slice(i, end + close.length);
-      i = end + close.length;
-    }
-  };
 
   while (i < text.length) {
     if (startsWith('$$')) {
@@ -42,7 +29,14 @@ function splitOutsideMath(text: string): string[] {
       continue;
     }
     if (text[i] === '$') {
-      consumeUntil('$');
+      const end = text.indexOf('$', i + 1);
+      if (end === -1) {
+        buf += text.slice(i);
+        i = text.length;
+      } else {
+        buf += text.slice(i, end + 1);
+        i = end + 1;
+      }
       continue;
     }
     if (startsWith('\\(')) {
@@ -93,9 +87,9 @@ function splitOutsideMath(text: string): string[] {
 const renderLatex = (text: string | null | undefined) => {
   if (!text) return '-';
   const parts = splitOutsideMath(text);
-  if (parts.length <= 1) {
-    return <Latex strict={false}>{text}</Latex>;
-  }
+  if (parts.length === 0) return '-';
+  // Siempre renderizamos `parts` (no el texto original): así eliminamos
+  // los separadores `\\` o `\newline` aunque queden colgando al final.
   return (
     <>
       {parts.map((p, idx) => (
