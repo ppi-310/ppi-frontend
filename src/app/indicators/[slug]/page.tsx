@@ -2,26 +2,49 @@ import { supabase } from '@/utils/supabase';
 import { notFound } from 'next/navigation';
 import 'katex/dist/katex.min.css';
 import Latex from 'react-latex-next';
+import { Fragment } from 'react';
 import { getLibraryLink } from '@/lib/libraryLink';
 
-const renderLatex = (text: string | null) => {
+const renderLatex = (text: string | null | undefined) => {
   if (!text) return "-";
-  return <Latex strict={false}>{text}</Latex>;
+  const parts = text
+    .split(/\s*\\newline\s*|\s*\\\\\s*/g)
+    .map((p) => p.trim())
+    .filter((p) => p.length > 0);
+  if (parts.length <= 1) {
+    return <Latex strict={false}>{text}</Latex>;
+  }
+  return (
+    <>
+      {parts.map((p, idx) => (
+        <Fragment key={idx}>
+          {idx > 0 && <br />}
+          <Latex strict={false}>{p}</Latex>
+        </Fragment>
+      ))}
+    </>
+  );
 };
 
+type AttributeRow = { attribute: { id_attribute: number; name: string } | null };
 
 export default async function IndicatorPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
 
   const { data: indicator, error } = await supabase
     .from('indicator')
-    .select('*')
+    .select('*, indicator_attribute(attribute(id_attribute, name))')
     .eq('slug', slug)
     .single();
 
   if (error || !indicator) {
     return notFound();
   }
+
+  const tagRows = (indicator.indicator_attribute as AttributeRow[] | null) ?? [];
+  const tags = tagRows
+    .map((row) => row.attribute?.name)
+    .filter((n): n is string => Boolean(n));
 
   const libraryLink = getLibraryLink(slug);
 
@@ -61,7 +84,6 @@ export default async function IndicatorPage({ params }: { params: Promise<{ slug
                   </a>
                 )}
               </div>
-              {/* Usamos el renderLatex aquí */}
               <div><div className="text-block-5">{renderLatex(indicator.function_name)}</div></div>
               <div className="block-classes">
                 <div className="class"><div>Dimension ID:</div><div>{indicator.id_dimension}</div></div>
@@ -75,12 +97,12 @@ export default async function IndicatorPage({ params }: { params: Promise<{ slug
                   <h3>Description</h3>
                   <div><p className="paragraph">{indicator.explanation}</p></div>
                 </div>
-                
+
                 <div className="box-attribites">
                   <h3>Potential use</h3>
                   <div><p className="paragraph">{indicator.potential_use || "-"}</p></div>
                 </div>
-                
+
                 <div className="box-attribites">
                   <h3>Assumptions</h3>
                   <div><p className="paragraph">{indicator.assumptions || "-"}</p></div>
@@ -94,19 +116,32 @@ export default async function IndicatorPage({ params }: { params: Promise<{ slug
               <div className="column-flexdown w-col w-col-6">
                 <div className="box-attribites">
                   <h3>Required attributes</h3>
-                  <div><p className="paragraph">act – Event attribute: activity<br/>case – Event attribute: case id</p></div>
+                  <div>
+                    {tags.length > 0 ? (
+                      <p className="paragraph">
+                        {tags.map((t, i) => (
+                          <Fragment key={t}>
+                            {i > 0 && <br />}
+                            <code>{t}</code>
+                          </Fragment>
+                        ))}
+                      </p>
+                    ) : (
+                      <p className="paragraph">-</p>
+                    )}
+                  </div>
                 </div>
-                
+
                 <div className="box-attribites">
                   <h3>Equations</h3>
-                  
+
                   <div>
                     <h4>Formula for practitioners</h4>
                     <p className="paragraph">{renderLatex(indicator.formalization_fp)}</p>
                     <div className="spacer_xs"></div>
                     <p className="paragraph whitespace-pre-wrap">{renderLatex(indicator.description_fp)}</p>
                   </div>
-                  
+
                   <div className="mt-4">
                     <h4>Formal Definition</h4>
                     <p className="paragraph">{renderLatex(indicator.formalization_latex)}</p>
@@ -115,16 +150,23 @@ export default async function IndicatorPage({ params }: { params: Promise<{ slug
               </div>
 
             </div>
-            
+
             <div className="spacer_l"></div>
-            
+
             <div className="div-block-8">
               <div className="w-layout-grid grid">
                 <h4 className="h4">Tags</h4>
                 <div className="collection-list-wrapper-3 w-dyn-list">
                   <div role="list" className="collection-list-4 w-dyn-items">
-                    <div role="listitem" className="w-dyn-item"><div className="tag-chip">act</div></div>
-                    <div role="listitem" className="w-dyn-item"><div className="tag-chip">case</div></div>
+                    {tags.length === 0 ? (
+                      <div role="listitem" className="w-dyn-item"><div className="tag-chip">-</div></div>
+                    ) : (
+                      tags.map((t) => (
+                        <div key={t} role="listitem" className="w-dyn-item">
+                          <div className="tag-chip">{t}</div>
+                        </div>
+                      ))
+                    )}
                   </div>
                 </div>
               </div>
