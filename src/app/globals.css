@@ -7693,3 +7693,115 @@ blockquote {
     grid-column: span 3 / span 3;
   }
 }
+
+/* ===========================================================
+   Python library link UI (process_performance_indicators docs)
+   =========================================================== */
+
+.ppi-title-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.ppi-title-row h2 {
+  margin: 0;
+  flex: 1 1 auto;
+}
+
+.library-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid #1f3a5f;
+  background-color: #1f3a5f;
+  color: #ffffff !important;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none !important;
+  line-height: 1;
+  white-space: nowrap;
+  transition: background-color .15s ease, border-color .15s ease,
+              color .15s ease, transform .15s ease;
+}
+
+.library-link-btn:hover {
+  background-color: #16294a;
+  border-color: #16294a;
+  color: #ffffff !important;
+  transform: translateY(-1px);
+}
+
+.library-link-btn:focus-visible {
+  outline: 2px solid #ffb84d;
+  outline-offset: 2px;
+}
+
+.library-link-btn svg {
+  flex-shrink: 0;
+}
+
+.library-link-btn--ghost {
+  background-color: transparent;
+  color: #1f3a5f !important;
+}
+
+.library-link-btn--ghost:hover {
+  background-color: rgba(31, 58, 95, 0.08);
+  color: #1f3a5f !important;
+}
+
+.library-section {
+  border: 1px solid #e3e8f0;
+  border-radius: 12px;
+  padding: 20px 22px;
+  background-color: #f7f9fc;
+}
+
+.library-section h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.library-function-path {
+  margin: 12px 0 16px;
+  padding: 10px 14px;
+  background-color: #ffffff;
+  border: 1px solid #e3e8f0;
+  border-radius: 8px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+               "Liberation Mono", "Courier New", monospace;
+  font-size: 13px;
+  color: #16294a;
+  overflow-x: auto;
+}
+
+.library-function-path code {
+  background: none;
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+}
+
+.library-section-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+@media screen and (max-width: 479px) {
+  .ppi-title-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .library-link-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
