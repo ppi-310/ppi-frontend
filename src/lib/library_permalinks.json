@@ -1,0 +1,2458 @@
+{
+  "active-time-case-granularity-t-c": {
+    "function": "active_time",
+    "dimension": "time",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.cases.active_time",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.cases.active_time"
+  },
+  "activity-and-role-count-ratio-case-granularity-f-c": {
+    "function": "activity_and_role_count_ratio",
+    "dimension": "flexibility",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.cases.activity_and_role_count_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.cases.activity_and_role_count_ratio"
+  },
+  "activity-and-role-count-ratio-group-of-cases-granularity-f-g": {
+    "function": "activity_and_role_count_ratio",
+    "dimension": "flexibility",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.groups.activity_and_role_count_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.groups.activity_and_role_count_ratio"
+  },
+  "activity-count-case-granularity-g-c": {
+    "function": "activity_count",
+    "dimension": "general",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/general/#process_performance_indicators.indicators.general.cases.activity_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/general/",
+    "function_path": "process_performance_indicators.indicators.general.cases.activity_count"
+  },
+  "activity-count-group-of-cases-granularity-g-g": {
+    "function": "activity_count",
+    "dimension": "general",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/general/#process_performance_indicators.indicators.general.groups.activity_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/general/",
+    "function_path": "process_performance_indicators.indicators.general.groups.activity_count"
+  },
+  "activity-count-case-granularity-t-c": {
+    "function": "activity_count",
+    "dimension": "time",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.cases.activity_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.cases.activity_count"
+  },
+  "activity-count-group-of-cases-granularity-t-g": {
+    "function": "activity_count",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.activity_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.activity_count"
+  },
+  "activity-instance-and-human-resource-count-ratio-activity-granularity-f-a": {
+    "function": "activity_instance_and_human_resource_count_ratio",
+    "dimension": "flexibility",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.activities.activity_instance_and_human_resource_count_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.activities.activity_instance_and_human_resource_count_ratio"
+  },
+  "activity-instance-and-human-resource-count-ratio-case-granularity-f-c": {
+    "function": "activity_instance_and_human_resource_count_ratio",
+    "dimension": "flexibility",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.cases.activity_instance_and_human_resource_count_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.cases.activity_instance_and_human_resource_count_ratio"
+  },
+  "activity-instance-and-human-resource-count-ratio-group-of-cases-granularity-f-g": {
+    "function": "activity_instance_and_human_resource_count_ratio",
+    "dimension": "flexibility",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.groups.activity_instance_and_human_resource_count_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.groups.activity_instance_and_human_resource_count_ratio"
+  },
+  "activity-instance-count-activity-granularity-g-a": {
+    "function": "activity_instance_count",
+    "dimension": "general",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/general/#process_performance_indicators.indicators.general.activities.activity_instance_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/general/",
+    "function_path": "process_performance_indicators.indicators.general.activities.activity_instance_count"
+  },
+  "activity-instance-count-case-granularity-g-c": {
+    "function": "activity_instance_count",
+    "dimension": "general",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/general/#process_performance_indicators.indicators.general.cases.activity_instance_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/general/",
+    "function_path": "process_performance_indicators.indicators.general.cases.activity_instance_count"
+  },
+  "activity-instance-count-group-of-cases-granularity-g-g": {
+    "function": "activity_instance_count",
+    "dimension": "general",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/general/#process_performance_indicators.indicators.general.groups.activity_instance_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/general/",
+    "function_path": "process_performance_indicators.indicators.general.groups.activity_instance_count"
+  },
+  "activity-instance-count-case-granularity-t-c": {
+    "function": "activity_instance_count",
+    "dimension": "time",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.cases.activity_instance_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.cases.activity_instance_count"
+  },
+  "activity-instance-count-group-of-cases-granularity-t-g": {
+    "function": "activity_instance_count",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.activity_instance_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.activity_instance_count"
+  },
+  "activity-instance-count-by-human-resource-activity-granularity-q-a": {
+    "function": "activity_instance_count_by_human_resource",
+    "dimension": "quality",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.activities.activity_instance_count_by_human_resource",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.activities.activity_instance_count_by_human_resource"
+  },
+  "activity-instance-count-by-human-resource-case-granularity-q-c": {
+    "function": "activity_instance_count_by_human_resource",
+    "dimension": "quality",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.cases.activity_instance_count_by_human_resource",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.cases.activity_instance_count_by_human_resource"
+  },
+  "activity-instance-count-by-human-resource-group-of-cases-granularity-q-g": {
+    "function": "activity_instance_count_by_human_resource",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.activity_instance_count_by_human_resource",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.activity_instance_count_by_human_resource"
+  },
+  "activity-instance-count-by-role-case-granularity-q-c": {
+    "function": "activity_instance_count_by_role",
+    "dimension": "quality",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.cases.activity_instance_count_by_role",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.cases.activity_instance_count_by_role"
+  },
+  "activity-instance-count-by-role-group-of-cases-granularity-q-g": {
+    "function": "activity_instance_count_by_role",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.activity_instance_count_by_role",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.activity_instance_count_by_role"
+  },
+  "automated-activity-cost-case-granularity-c-c": {
+    "function": "automated_activity_cost",
+    "dimension": "cost",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.cases.automated_activity_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.cases.automated_activity_cost"
+  },
+  "automated-activity-cost-group-of-cases-granularity-c-g": {
+    "function": "automated_activity_cost",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.automated_activity_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.automated_activity_cost"
+  },
+  "automated-activity-count-case-granularity-q-c": {
+    "function": "automated_activity_count",
+    "dimension": "quality",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.cases.automated_activity_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.cases.automated_activity_count"
+  },
+  "automated-activity-count-group-of-cases-granularity-q-g": {
+    "function": "automated_activity_count",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.automated_activity_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.automated_activity_count"
+  },
+  "automated-activity-count-case-granularity-t-c": {
+    "function": "automated_activity_count",
+    "dimension": "time",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.cases.automated_activity_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.cases.automated_activity_count"
+  },
+  "automated-activity-count-group-of-cases-granularity-t-g": {
+    "function": "automated_activity_count",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.automated_activity_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.automated_activity_count"
+  },
+  "automated-activity-instance-count-case-granularity-q-c": {
+    "function": "automated_activity_instance_count",
+    "dimension": "quality",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.cases.automated_activity_instance_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.cases.automated_activity_instance_count"
+  },
+  "automated-activity-instance-count-group-of-cases-granularity-q-g": {
+    "function": "automated_activity_instance_count",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.automated_activity_instance_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.automated_activity_instance_count"
+  },
+  "automated-activity-instance-count-case-granularity-t-c": {
+    "function": "automated_activity_instance_count",
+    "dimension": "time",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.cases.automated_activity_instance_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.cases.automated_activity_instance_count"
+  },
+  "automated-activity-instance-count-group-of-cases-granularity-t-g": {
+    "function": "automated_activity_instance_count",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.automated_activity_instance_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.automated_activity_instance_count"
+  },
+  "automated-activity-service-time-case-granularity-t-c": {
+    "function": "automated_activity_service_time",
+    "dimension": "time",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.cases.automated_activity_service_time",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.cases.automated_activity_service_time"
+  },
+  "automated-activity-service-time-group-of-cases-granularity-t-g": {
+    "function": "automated_activity_service_time",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.automated_activity_service_time",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.automated_activity_service_time"
+  },
+  "case-and-client-count-ratio-group-of-cases-granularity-q-g": {
+    "function": "case_and_client_count_ratio",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.case_and_client_count_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.case_and_client_count_ratio"
+  },
+  "case-count-group-of-cases-granularity-g-g": {
+    "function": "case_count",
+    "dimension": "general",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/general/#process_performance_indicators.indicators.general.groups.case_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/general/",
+    "function_path": "process_performance_indicators.indicators.general.groups.case_count"
+  },
+  "case-count-where-activity-after-time-frame-group-of-cases-granularity-q-g": {
+    "function": "case_count_where_activity_after_time_frame",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.case_count_where_activity_after_time_frame",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.case_count_where_activity_after_time_frame"
+  },
+  "case-count-where-activity-before-time-frame-group-of-cases-granularity-q-g": {
+    "function": "case_count_where_activity_before_time_frame",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.case_count_where_activity_before_time_frame",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.case_count_where_activity_before_time_frame"
+  },
+  "case-count-where-activity-during-time-frame-group-of-cases-granularity-q-g": {
+    "function": "case_count_where_activity_during_time_frame",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.case_count_where_activity_during_time_frame",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.case_count_where_activity_during_time_frame"
+  },
+  "case-count-where-end-activity-is-a-group-of-cases-granularity-q-g": {
+    "function": "case_count_where_end_activity_is_a",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.case_count_where_end_activity_is_a",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.case_count_where_end_activity_is_a"
+  },
+  "case-count-where-start-activity-is-a-group-of-cases-granularity-q-g": {
+    "function": "case_count_where_start_activity_is_a",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.case_count_where_start_activity_is_a",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.case_count_where_start_activity_is_a"
+  },
+  "case-count-with-rework-group-of-cases-granularity-q-g": {
+    "function": "case_count_with_rework",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.case_count_with_rework",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.case_count_with_rework"
+  },
+  "case-percentage-where-activity-after-time-frame-group-of-cases-granularity-q-g": {
+    "function": "case_percentage_where_activity_after_time_frame",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.case_percentage_where_activity_after_time_frame",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.case_percentage_where_activity_after_time_frame"
+  },
+  "case-percentage-where-activity-before-time-frame-group-of-cases-granularity-q-g": {
+    "function": "case_percentage_where_activity_before_time_frame",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.case_percentage_where_activity_before_time_frame",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.case_percentage_where_activity_before_time_frame"
+  },
+  "case-percentage-where-activity-during-time-frame-group-of-cases-granularity-q-g": {
+    "function": "case_percentage_where_activity_during_time_frame",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.case_percentage_where_activity_during_time_frame",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.case_percentage_where_activity_during_time_frame"
+  },
+  "case-percentage-where-end-activity-is-a-group-of-cases-granularity-q-g": {
+    "function": "case_percentage_where_end_activity_is_a",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.case_percentage_where_end_activity_is_a",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.case_percentage_where_end_activity_is_a"
+  },
+  "case-percentage-where-start-activity-is-a-group-of-cases-granularity-q-g": {
+    "function": "case_percentage_where_start_activity_is_a",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.case_percentage_where_start_activity_is_a",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.case_percentage_where_start_activity_is_a"
+  },
+  "case-percentage-with-missed-deadline-group-of-cases-granularity-q-g": {
+    "function": "case_percentage_with_missed_deadline",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.case_percentage_with_missed_deadline",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.case_percentage_with_missed_deadline"
+  },
+  "case-percentage-with-missed-deadline-group-of-cases-granularity-t-g": {
+    "function": "case_percentage_with_missed_deadline",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.case_percentage_with_missed_deadline",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.case_percentage_with_missed_deadline"
+  },
+  "case-percentage-with-rework-group-of-cases-granularity-q-g": {
+    "function": "case_percentage_with_rework",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.case_percentage_with_rework",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.case_percentage_with_rework"
+  },
+  "client-count-activity-granularity-f-a": {
+    "function": "client_count",
+    "dimension": "flexibility",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.activities.client_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.activities.client_count"
+  },
+  "client-count-group-of-cases-granularity-f-g": {
+    "function": "client_count",
+    "dimension": "flexibility",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.groups.client_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.groups.client_count"
+  },
+  "client-count-and-total-cost-ratio-activity-granularity-q-a": {
+    "function": "client_count_and_total_cost_ratio",
+    "dimension": "quality",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.activities.client_count_and_total_cost_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.activities.client_count_and_total_cost_ratio"
+  },
+  "client-count-and-total-cost-ratio-group-of-cases-granularity-q-g": {
+    "function": "client_count_and_total_cost_ratio",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.client_count_and_total_cost_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.client_count_and_total_cost_ratio"
+  },
+  "desired-activity-count-case-granularity-c-c": {
+    "function": "desired_activity_count",
+    "dimension": "cost",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.cases.desired_activity_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.cases.desired_activity_count"
+  },
+  "desired-activity-count-group-of-cases-granularity-c-g": {
+    "function": "desired_activity_count",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.desired_activity_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.desired_activity_count"
+  },
+  "desired-activity-count-case-granularity-q-c": {
+    "function": "desired_activity_count",
+    "dimension": "quality",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.cases.desired_activity_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.cases.desired_activity_count"
+  },
+  "desired-activity-count-group-of-cases-granularity-q-g": {
+    "function": "desired_activity_count",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.desired_activity_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.desired_activity_count"
+  },
+  "direct-cost-case-granularity-c-c": {
+    "function": "direct_cost",
+    "dimension": "cost",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.cases.direct_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.cases.direct_cost"
+  },
+  "direct-cost-group-of-cases-granularity-c-g": {
+    "function": "direct_cost",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.direct_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.direct_cost"
+  },
+  "directly-follows-relations-and-activity-count-ratio-case-granularity-f-c": {
+    "function": "directly_follows_relations_and_activity_count_ratio",
+    "dimension": "flexibility",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.cases.directly_follows_relations_and_activity_count_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.cases.directly_follows_relations_and_activity_count_ratio"
+  },
+  "directly-follows-relations-and-activity-count-ratio-group-of-cases-granularity-f-g": {
+    "function": "directly_follows_relations_and_activity_count_ratio",
+    "dimension": "flexibility",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.groups.directly_follows_relations_and_activity_count_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.groups.directly_follows_relations_and_activity_count_ratio"
+  },
+  "directly-follows-relations-count-activity-granularity-f-a": {
+    "function": "directly_follows_relations_count",
+    "dimension": "flexibility",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.activities.directly_follows_relations_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.activities.directly_follows_relations_count"
+  },
+  "directly-follows-relations-count-case-granularity-f-c": {
+    "function": "directly_follows_relations_count",
+    "dimension": "flexibility",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.cases.directly_follows_relations_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.cases.directly_follows_relations_count"
+  },
+  "directly-follows-relations-count-group-of-cases-granularity-f-g": {
+    "function": "directly_follows_relations_count",
+    "dimension": "flexibility",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.groups.directly_follows_relations_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.groups.directly_follows_relations_count"
+  },
+  "expected-active-time-t-g": {
+    "function": "expected_active_time",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.expected_active_time",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.expected_active_time"
+  },
+  "expected-activity-and-role-count-ratio-f-g": {
+    "function": "expected_activity_and_role_count_ratio",
+    "dimension": "flexibility",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.groups.expected_activity_and_role_count_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.groups.expected_activity_and_role_count_ratio"
+  },
+  "expected-activity-count-g-g": {
+    "function": "expected_activity_count",
+    "dimension": "general",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/general/#process_performance_indicators.indicators.general.groups.expected_activity_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/general/",
+    "function_path": "process_performance_indicators.indicators.general.groups.expected_activity_count"
+  },
+  "expected-activity-count-t-g": {
+    "function": "expected_activity_count",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.expected_activity_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.expected_activity_count"
+  },
+  "expected-activity-instance-and-human-resource-count-ratio-f-g": {
+    "function": "expected_activity_instance_and_human_resource_count_ratio",
+    "dimension": "flexibility",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.groups.expected_activity_instance_and_human_resource_count_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.groups.expected_activity_instance_and_human_resource_count_ratio"
+  },
+  "expected-activity-instance-count-g-g": {
+    "function": "expected_activity_instance_count",
+    "dimension": "general",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/general/#process_performance_indicators.indicators.general.groups.expected_activity_instance_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/general/",
+    "function_path": "process_performance_indicators.indicators.general.groups.expected_activity_instance_count"
+  },
+  "expected-activity-instance-count-t-g": {
+    "function": "expected_activity_instance_count",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.expected_activity_instance_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.expected_activity_instance_count"
+  },
+  "expected-activity-instance-count-by-human-resource-q-g": {
+    "function": "expected_activity_instance_count_by_human_resource",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.expected_activity_instance_count_by_human_resource",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.expected_activity_instance_count_by_human_resource"
+  },
+  "expected-activity-instance-count-by-role-q-g": {
+    "function": "expected_activity_instance_count_by_role",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.expected_activity_instance_count_by_role",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.expected_activity_instance_count_by_role"
+  },
+  "expected-automated-activity-cost-c-g": {
+    "function": "expected_automated_activity_cost",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.expected_automated_activity_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.expected_automated_activity_cost"
+  },
+  "expected-automated-activity-count-q-g": {
+    "function": "expected_automated_activity_count",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.expected_automated_activity_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.expected_automated_activity_count"
+  },
+  "expected-automated-activity-count-t-g": {
+    "function": "expected_automated_activity_count",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.expected_automated_activity_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.expected_automated_activity_count"
+  },
+  "expected-automated-activity-instance-count-q-g": {
+    "function": "expected_automated_activity_instance_count",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.expected_automated_activity_instance_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.expected_automated_activity_instance_count"
+  },
+  "expected-automated-activity-instance-count-t-g": {
+    "function": "expected_automated_activity_instance_count",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.expected_automated_activity_instance_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.expected_automated_activity_instance_count"
+  },
+  "expected-automated-activity-service-time-t-g": {
+    "function": "expected_automated_activity_service_time",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.expected_automated_activity_service_time",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.expected_automated_activity_service_time"
+  },
+  "expected-client-count-f-g": {
+    "function": "expected_client_count",
+    "dimension": "flexibility",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.groups.expected_client_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.groups.expected_client_count"
+  },
+  "expected-client-count-and-total-cost-ratio-q-g": {
+    "function": "expected_client_count_and_total_cost_ratio",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.expected_client_count_and_total_cost_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.expected_client_count_and_total_cost_ratio"
+  },
+  "expected-desired-activity-count-c-g": {
+    "function": "expected_desired_activity_count",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.expected_desired_activity_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.expected_desired_activity_count"
+  },
+  "expected-desired-activity-count-q-g": {
+    "function": "expected_desired_activity_count",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.expected_desired_activity_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.expected_desired_activity_count"
+  },
+  "expected-direct-cost-c-g": {
+    "function": "expected_direct_cost",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.expected_direct_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.expected_direct_cost"
+  },
+  "expected-directly-follows-relations-and-activity-count-ratio-f-g": {
+    "function": "expected_directly_follows_relations_and_activity_count_ratio",
+    "dimension": "flexibility",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.groups.expected_directly_follows_relations_and_activity_count_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.groups.expected_directly_follows_relations_and_activity_count_ratio"
+  },
+  "expected-directly-follows-relations-count-f-g": {
+    "function": "expected_directly_follows_relations_count",
+    "dimension": "flexibility",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.groups.expected_directly_follows_relations_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.groups.expected_directly_follows_relations_count"
+  },
+  "expected-fixed-cost-c-g": {
+    "function": "expected_fixed_cost",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.expected_fixed_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.expected_fixed_cost"
+  },
+  "expected-handover-count-t-g": {
+    "function": "expected_handover_count",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.expected_handover_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.expected_handover_count"
+  },
+  "expected-human-resource-count-c-g": {
+    "function": "expected_human_resource_count",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.expected_human_resource_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.expected_human_resource_count"
+  },
+  "expected-human-resource-count-f-g": {
+    "function": "expected_human_resource_count",
+    "dimension": "flexibility",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.groups.expected_human_resource_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.groups.expected_human_resource_count"
+  },
+  "expected-human-resource-count-g-g": {
+    "function": "expected_human_resource_count",
+    "dimension": "general",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/general/#process_performance_indicators.indicators.general.groups.expected_human_resource_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/general/",
+    "function_path": "process_performance_indicators.indicators.general.groups.expected_human_resource_count"
+  },
+  "expected-human-resource-count-q-g": {
+    "function": "expected_human_resource_count",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.expected_human_resource_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.expected_human_resource_count"
+  },
+  "expected-idle-time-t-g": {
+    "function": "expected_idle_time",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.expected_idle_time",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.expected_idle_time"
+  },
+  "expected-inventory-cost-c-g": {
+    "function": "expected_inventory_cost",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.expected_inventory_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.expected_inventory_cost"
+  },
+  "expected-labor-cost-c-g": {
+    "function": "expected_labor_cost",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.expected_labor_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.expected_labor_cost"
+  },
+  "expected-labor-cost-and-total-cost-ratio-c-g": {
+    "function": "expected_labor_cost_and_total_cost_ratio",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.expected_labor_cost_and_total_cost_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.expected_labor_cost_and_total_cost_ratio"
+  },
+  "expected-lead-time-t-g": {
+    "function": "expected_lead_time",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.expected_lead_time",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.expected_lead_time"
+  },
+  "expected-lead-time-deviation-from-expectation-t-g": {
+    "function": "expected_lead_time_deviation_from_expectation",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.expected_lead_time_deviation_from_expectation",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.expected_lead_time_deviation_from_expectation"
+  },
+  "expected-lead-time-deviation-from-time-limit-t-g": {
+    "function": "expected_lead_time_deviation_from_deadline",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.expected_lead_time_deviation_from_deadline",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.expected_lead_time_deviation_from_deadline"
+  },
+  "expected-lead-time-from-activity-a-t-g": {
+    "function": "expected_lead_time_from_activity_a",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.expected_lead_time_from_activity_a",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.expected_lead_time_from_activity_a"
+  },
+  "expected-lead-time-from-activity-a-to-activity-b-t-g": {
+    "function": "expected_lead_time_from_activity_a_to_b",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.expected_lead_time_from_activity_a_to_b",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.expected_lead_time_from_activity_a_to_b"
+  },
+  "expected-lead-time-to-activity-a-t-g": {
+    "function": "expected_lead_time_to_activity_a",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.expected_lead_time_to_activity_a",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.expected_lead_time_to_activity_a"
+  },
+  "expected-maintenance-cost-c-g": {
+    "function": "expected_maintenance_cost",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.expected_maintenance_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.expected_maintenance_cost"
+  },
+  "expected-missed-deadline-cost-c-g": {
+    "function": "expected_missed_deadline_cost",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.expected_missed_deadline_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.expected_missed_deadline_cost"
+  },
+  "expected-non-automated-activity-count-group-of-cases-granularity-q-g": {
+    "function": "expected_non_automated_activity_count",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.expected_non_automated_activity_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.expected_non_automated_activity_count"
+  },
+  "expected-non-automated-activity-instance-count-q-g": {
+    "function": "expected_non_automated_activity_instance_count",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.expected_non_automated_activity_instance_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.expected_non_automated_activity_instance_count"
+  },
+  "expected-optional-activity-count-f-g": {
+    "function": "expected_optional_activity_count",
+    "dimension": "flexibility",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.groups.expected_optional_activity_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.groups.expected_optional_activity_count"
+  },
+  "expected-optionality-f-g": {
+    "function": "expected_optionality",
+    "dimension": "flexibility",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.groups.expected_optionality",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.groups.expected_optionality"
+  },
+  "expected-outcome-unit-count-q-g": {
+    "function": "expected_outcome_unit_count",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.expected_outcome_unit_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.expected_outcome_unit_count"
+  },
+  "expected-overall-quality-q-g": {
+    "function": "expected_overall_quality",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.expected_overall_quality",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.expected_overall_quality"
+  },
+  "expected-overhead-cost-c-g": {
+    "function": "expected_overhead_cost",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.expected_overhead_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.expected_overhead_cost"
+  },
+  "expected-repeatability-q-g": {
+    "function": "expected_repeatability",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.expected_repeatability",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.expected_repeatability"
+  },
+  "expected-resource-count-c-g": {
+    "function": "expected_resource_count",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.expected_resource_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.expected_resource_count"
+  },
+  "expected-resource-count-g-g": {
+    "function": "expected_resource_count",
+    "dimension": "general",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/general/#process_performance_indicators.indicators.general.groups.expected_resource_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/general/",
+    "function_path": "process_performance_indicators.indicators.general.groups.expected_resource_count"
+  },
+  "expected-rework-cost-c-g": {
+    "function": "expected_rework_cost",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.expected_rework_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.expected_rework_cost"
+  },
+  "expected-rework-count-c-g": {
+    "function": "expected_rework_count",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.expected_rework_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.expected_rework_count"
+  },
+  "expected-rework-count-q-g": {
+    "function": "expected_rework_count",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.expected_rework_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.expected_rework_count"
+  },
+  "expected-rework-count-by-value-q-g": {
+    "function": "expected_rework_count_by_value",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.expected_rework_count_by_value",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.expected_rework_count_by_value"
+  },
+  "expected-rework-of-activities-subset-q-g": {
+    "function": "expected_rework_of_activities_subset",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.expected_rework_of_activities_subset",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.expected_rework_of_activities_subset"
+  },
+  "expected-rework-percentage-c-g": {
+    "function": "expected_rework_percentage",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.expected_rework_percentage",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.expected_rework_percentage"
+  },
+  "expected-rework-percentage-q-g": {
+    "function": "expected_rework_percentage",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.expected_rework_percentage",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.expected_rework_percentage"
+  },
+  "expected-rework-percentage-by-value-q-g": {
+    "function": "expected_rework_percentage_by_value",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.expected_rework_percentage_by_value",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.expected_rework_percentage_by_value"
+  },
+  "expected-rework-time-q-g": {
+    "function": "expected_rework_time",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.expected_rework_time",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.expected_rework_time"
+  },
+  "expected-role-count-f-g": {
+    "function": "expected_role_count",
+    "dimension": "flexibility",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.groups.expected_role_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.groups.expected_role_count"
+  },
+  "expected-role-count-g-g": {
+    "function": "expected_role_count",
+    "dimension": "general",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/general/#process_performance_indicators.indicators.general.groups.expected_role_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/general/",
+    "function_path": "process_performance_indicators.indicators.general.groups.expected_role_count"
+  },
+  "expected-service-and-lead-time-ratio-t-g": {
+    "function": "expected_service_and_lead_time_ratio",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.expected_service_and_lead_time_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.expected_service_and_lead_time_ratio"
+  },
+  "expected-service-time-t-g": {
+    "function": "expected_service_time",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.expected_service_time",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.expected_service_time"
+  },
+  "expected-service-time-from-activity-a-to-activity-b-t-g": {
+    "function": "expected_service_time_from_activity_a_to_b",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.expected_service_time_from_activity_a_to_b",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.expected_service_time_from_activity_a_to_b"
+  },
+  "expected-successful-outcome-unit-count-q-g": {
+    "function": "expected_successful_outcome_unit_count",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.expected_successful_outcome_unit_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.expected_successful_outcome_unit_count"
+  },
+  "expected-successful-outcome-unit-percentage-q-g": {
+    "function": "expected_successful_outcome_unit_percentage",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.expected_successful_outcome_unit_percentage",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.expected_successful_outcome_unit_percentage"
+  },
+  "expected-total-cost-c-g": {
+    "function": "expected_total_cost",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.expected_total_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.expected_total_cost"
+  },
+  "expected-total-cost-and-client-count-ratio-q-g": {
+    "function": "expected_total_cost_and_client_count_ratio",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.expected_total_cost_and_client_count_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.expected_total_cost_and_client_count_ratio"
+  },
+  "expected-total-cost-and-lead-time-ratio-c-g": {
+    "function": "expected_total_cost_and_lead_time_ratio",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.expected_total_cost_and_lead_time_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.expected_total_cost_and_lead_time_ratio"
+  },
+  "expected-total-cost-and-outcome-unit-ratio-c-g": {
+    "function": "expected_total_cost_and_outcome_unit_ratio",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.expected_total_cost_and_outcome_unit_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.expected_total_cost_and_outcome_unit_ratio"
+  },
+  "expected-total-cost-and-service-time-ratio-c-g": {
+    "function": "expected_total_cost_and_service_time_ratio",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.expected_total_cost_and_service_time_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.expected_total_cost_and_service_time_ratio"
+  },
+  "expected-transportation-cost-c-g": {
+    "function": "expected_transportation_cost",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.expected_transportation_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.expected_transportation_cost"
+  },
+  "expected-unwanted-activity-count-q-g": {
+    "function": "expected_unwanted_activity_count",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.expected_unwanted_activity_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.expected_unwanted_activity_count"
+  },
+  "expected-unwanted-activity-instance-count-q-g": {
+    "function": "expected_unwanted_activity_instance_count",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.expected_unwanted_activity_instance_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.expected_unwanted_activity_instance_count"
+  },
+  "expected-unwanted-activity-instance-percentage-q-g": {
+    "function": "expected_unwanted_activity_instance_percentage",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.expected_unwanted_activity_instance_percentage",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.expected_unwanted_activity_instance_percentage"
+  },
+  "expected-unwanted-activity-percentage-q-g": {
+    "function": "expected_unwanted_activity_percentage",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.expected_unwanted_activity_percentage",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.expected_unwanted_activity_percentage"
+  },
+  "expected-variable-cost-c-g": {
+    "function": "expected_variable_cost",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.expected_variable_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.expected_variable_cost"
+  },
+  "expected-waiting-time-t-g": {
+    "function": "expected_waiting_time",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.expected_waiting_time",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.expected_waiting_time"
+  },
+  "expected-waiting-time-from-activity-a-to-activity-b-t-g": {
+    "function": "expected_waiting_time_from_activity_a_to_b",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.expected_waiting_time_from_activity_a_to_b",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.expected_waiting_time_from_activity_a_to_b"
+  },
+  "expected-warehousing-cost-c-g": {
+    "function": "expected_warehousing_cost",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.expected_warehousing_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.expected_warehousing_cost"
+  },
+  "fixed-cost-activity-granularity-c-a": {
+    "function": "fixed_cost",
+    "dimension": "cost",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.activities.fixed_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.activities.fixed_cost"
+  },
+  "fixed-cost-case-granularity-c-c": {
+    "function": "fixed_cost",
+    "dimension": "cost",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.cases.fixed_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.cases.fixed_cost"
+  },
+  "fixed-cost-group-of-cases-granularity-c-g": {
+    "function": "fixed_cost",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.fixed_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.fixed_cost"
+  },
+  "fixed-cost-considering-single-events-of-activity-instances-activity-instance-granularity-c-i": {
+    "function": "fixed_cost_for_single_events_of_activity_instances",
+    "dimension": "cost",
+    "granularity_file": "instances",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.instances.fixed_cost_for_single_events_of_activity_instances",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.instances.fixed_cost_for_single_events_of_activity_instances"
+  },
+  "fixed-cost-considering-the-sum-of-all-events-of-activity-instances-activity-instance-granularity-c-i": {
+    "function": "fixed_cost_for_sum_of_all_events_of_activity_instances",
+    "dimension": "cost",
+    "granularity_file": "instances",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.instances.fixed_cost_for_sum_of_all_events_of_activity_instances",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.instances.fixed_cost_for_sum_of_all_events_of_activity_instances"
+  },
+  "handover-count-case-granularity-t-c": {
+    "function": "handover_count",
+    "dimension": "time",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.cases.handover_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.cases.handover_count"
+  },
+  "human-resource-and-case-count-ratio-group-of-cases-granularity-c-g": {
+    "function": "human_resource_and_case_count_ratio",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.human_resource_and_case_count_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.human_resource_and_case_count_ratio"
+  },
+  "human-resource-count-activity-granularity-c-a": {
+    "function": "human_resource_count",
+    "dimension": "cost",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.activities.human_resource_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.activities.human_resource_count"
+  },
+  "human-resource-count-case-granularity-c-c": {
+    "function": "human_resource_count",
+    "dimension": "cost",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.cases.human_resource_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.cases.human_resource_count"
+  },
+  "human-resource-count-group-of-cases-granularity-c-g": {
+    "function": "human_resource_count",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.human_resource_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.human_resource_count"
+  },
+  "human-resource-count-activity-granularity-f-a": {
+    "function": "human_resource_count",
+    "dimension": "flexibility",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.activities.human_resource_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.activities.human_resource_count"
+  },
+  "human-resource-count-case-granularity-f-c": {
+    "function": "human_resource_count",
+    "dimension": "flexibility",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.cases.human_resource_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.cases.human_resource_count"
+  },
+  "human-resource-count-group-of-cases-granularity-f-g": {
+    "function": "human_resource_count",
+    "dimension": "flexibility",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.groups.human_resource_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.groups.human_resource_count"
+  },
+  "human-resource-count-activity-granularity-g-a": {
+    "function": "human_resource_count",
+    "dimension": "general",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/general/#process_performance_indicators.indicators.general.activities.human_resource_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/general/",
+    "function_path": "process_performance_indicators.indicators.general.activities.human_resource_count"
+  },
+  "human-resource-count-case-granularity-g-c": {
+    "function": "human_resource_count",
+    "dimension": "general",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/general/#process_performance_indicators.indicators.general.cases.human_resource_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/general/",
+    "function_path": "process_performance_indicators.indicators.general.cases.human_resource_count"
+  },
+  "human-resource-count-group-of-cases-granularity-g-g": {
+    "function": "human_resource_count",
+    "dimension": "general",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/general/#process_performance_indicators.indicators.general.groups.human_resource_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/general/",
+    "function_path": "process_performance_indicators.indicators.general.groups.human_resource_count"
+  },
+  "human-resource-count-activity-granularity-q-a": {
+    "function": "human_resource_count",
+    "dimension": "quality",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.activities.human_resource_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.activities.human_resource_count"
+  },
+  "human-resource-count-case-granularity-q-c": {
+    "function": "human_resource_count",
+    "dimension": "quality",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.cases.human_resource_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.cases.human_resource_count"
+  },
+  "human-resource-count-group-of-cases-granularity-q-g": {
+    "function": "human_resource_count",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.human_resource_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.human_resource_count"
+  },
+  "idle-time-case-granularity-t-c": {
+    "function": "idle_time",
+    "dimension": "time",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.cases.idle_time",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.cases.idle_time"
+  },
+  "inventory-cost-activity-granularity-c-a": {
+    "function": "inventory_cost",
+    "dimension": "cost",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.activities.inventory_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.activities.inventory_cost"
+  },
+  "inventory-cost-case-granularity-c-c": {
+    "function": "inventory_cost",
+    "dimension": "cost",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.cases.inventory_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.cases.inventory_cost"
+  },
+  "inventory-cost-group-of-cases-granularity-c-g": {
+    "function": "inventory_cost",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.inventory_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.inventory_cost"
+  },
+  "inventory-cost-considering-single-events-of-activity-instances-activity-instance-granularity-c-i": {
+    "function": "inventory_cost_for_single_events_of_activity_instances",
+    "dimension": "cost",
+    "granularity_file": "instances",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.instances.inventory_cost_for_single_events_of_activity_instances",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.instances.inventory_cost_for_single_events_of_activity_instances"
+  },
+  "inventory-cost-considering-the-sum-of-all-events-of-activity-instances-activity-instance-granularity-c-i": {
+    "function": "inventory_cost_for_sum_of_all_events_of_activity_instances",
+    "dimension": "cost",
+    "granularity_file": "instances",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.instances.inventory_cost_for_sum_of_all_events_of_activity_instances",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.instances.inventory_cost_for_sum_of_all_events_of_activity_instances"
+  },
+  "labor-cost-activity-granularity-c-a": {
+    "function": "labor_cost",
+    "dimension": "cost",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.activities.labor_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.activities.labor_cost"
+  },
+  "labor-cost-case-granularity-c-c": {
+    "function": "labor_cost",
+    "dimension": "cost",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.cases.labor_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.cases.labor_cost"
+  },
+  "labor-cost-group-of-cases-granularity-c-g": {
+    "function": "labor_cost",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.labor_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.labor_cost"
+  },
+  "labor-cost-and-total-cost-ratio-activity-granularity-c-a": {
+    "function": "labor_cost_and_total_cost_ratio",
+    "dimension": "cost",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.activities.labor_cost_and_total_cost_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.activities.labor_cost_and_total_cost_ratio"
+  },
+  "labor-cost-and-total-cost-ratio-case-granularity-c-c": {
+    "function": "labor_cost_and_total_cost_ratio",
+    "dimension": "cost",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.cases.labor_cost_and_total_cost_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.cases.labor_cost_and_total_cost_ratio"
+  },
+  "labor-cost-and-total-cost-ratio-group-of-cases-granularity-c-g": {
+    "function": "labor_cost_and_total_cost_ratio",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.labor_cost_and_total_cost_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.labor_cost_and_total_cost_ratio"
+  },
+  "labor-cost-and-total-cost-ratio-activity-instance-granularity-c-i": {
+    "function": "labor_cost_and_total_cost_ratio",
+    "dimension": "cost",
+    "granularity_file": "instances",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.instances.labor_cost_and_total_cost_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.instances.labor_cost_and_total_cost_ratio"
+  },
+  "labor-cost-considering-single-events-of-activity-instances-activity-instance-granularity-c-i": {
+    "function": "labor_cost_for_single_events_of_activity_instances",
+    "dimension": "cost",
+    "granularity_file": "instances",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.instances.labor_cost_for_single_events_of_activity_instances",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.instances.labor_cost_for_single_events_of_activity_instances"
+  },
+  "labor-cost-considering-the-sum-of-all-events-of-activity-instances-activity-instance-granularity-c-i": {
+    "function": "labor_cost_for_sum_of_all_events_of_activity_instances",
+    "dimension": "cost",
+    "granularity_file": "instances",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.instances.labor_cost_for_sum_of_all_events_of_activity_instances",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.instances.labor_cost_for_sum_of_all_events_of_activity_instances"
+  },
+  "lead-time-activity-granularity-t-a": {
+    "function": "lead_time",
+    "dimension": "time",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.activities.lead_time",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.activities.lead_time"
+  },
+  "lead-time-case-granularity-t-c": {
+    "function": "lead_time",
+    "dimension": "time",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.cases.lead_time",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.cases.lead_time"
+  },
+  "lead-time-group-of-cases-granularity-t-g": {
+    "function": "lead_time",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.lead_time",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.lead_time"
+  },
+  "lead-time-activity-instance-granularity-t-i": {
+    "function": "lead_time",
+    "dimension": "time",
+    "granularity_file": "instances",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.instances.lead_time",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.instances.lead_time"
+  },
+  "lead-time-and-case-count-ratio-group-of-cases-granularity-t-g": {
+    "function": "lead_time_and_case_count_ratio",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.lead_time_and_case_count_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.lead_time_and_case_count_ratio"
+  },
+  "lead-time-deviation-from-expectation-case-granularity-t-c": {
+    "function": "lead_time_deviation_from_expectation",
+    "dimension": "time",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.cases.lead_time_deviation_from_expectation",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.cases.lead_time_deviation_from_expectation"
+  },
+  "lead-time-deviation-from-time-limit-case-granularity-t-c": {
+    "function": "lead_time_deviation_from_deadline",
+    "dimension": "time",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.cases.lead_time_deviation_from_deadline",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.cases.lead_time_deviation_from_deadline"
+  },
+  "lead-time-from-activity-a-case-granularity-t-c": {
+    "function": "lead_time_from_activity_a",
+    "dimension": "time",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.cases.lead_time_from_activity_a",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.cases.lead_time_from_activity_a"
+  },
+  "lead-time-from-activity-a-to-activity-b-case-granularity-t-c": {
+    "function": "lead_time_from_activity_a_to_b",
+    "dimension": "time",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.cases.lead_time_from_activity_a_to_b",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.cases.lead_time_from_activity_a_to_b"
+  },
+  "lead-time-to-activity-a-case-granularity-t-c": {
+    "function": "lead_time_to_activity_a",
+    "dimension": "time",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.cases.lead_time_to_activity_a",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.cases.lead_time_to_activity_a"
+  },
+  "maintenance-cost-case-granularity-c-c": {
+    "function": "maintenance_cost",
+    "dimension": "cost",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.cases.maintenance_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.cases.maintenance_cost"
+  },
+  "maintenance-cost-group-of-cases-granularity-c-g": {
+    "function": "maintenance_cost",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.maintenance_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.maintenance_cost"
+  },
+  "missed-deadline-cost-case-granularity-c-c": {
+    "function": "missed_deadline_cost",
+    "dimension": "cost",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.cases.missed_deadline_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.cases.missed_deadline_cost"
+  },
+  "missed-deadline-cost-group-of-cases-granularity-c-g": {
+    "function": "missed_deadline_cost",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.missed_deadline_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.missed_deadline_cost"
+  },
+  "non-automated-activity-count-case-granularity-q-c": {
+    "function": "non_automated_activity_count",
+    "dimension": "quality",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.cases.non_automated_activity_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.cases.non_automated_activity_count"
+  },
+  "non-automated-activity-count-group-of-cases-granularity-q-g": {
+    "function": "non_automated_activity_count",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.non_automated_activity_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.non_automated_activity_count"
+  },
+  "non-automated-activity-instance-count-case-granularity-q-c": {
+    "function": "non_automated_activity_instance_count",
+    "dimension": "quality",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.cases.non_automated_activity_instance_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.cases.non_automated_activity_instance_count"
+  },
+  "non-automated-activity-instance-count-group-of-cases-granularity-q-g": {
+    "function": "non_automated_activity_instance_count",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.non_automated_activity_instance_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.non_automated_activity_instance_count"
+  },
+  "optional-activity-count-case-granularity-f-c": {
+    "function": "optional_activity_count",
+    "dimension": "flexibility",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.cases.optional_activity_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.cases.optional_activity_count"
+  },
+  "optional-activity-count-group-of-cases-granularity-f-g": {
+    "function": "optional_activity_count",
+    "dimension": "flexibility",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.groups.optional_activity_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.groups.optional_activity_count"
+  },
+  "optionality-case-granularity-f-c": {
+    "function": "optionality",
+    "dimension": "flexibility",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.cases.optionality",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.cases.optionality"
+  },
+  "optionality-group-of-cases-granularity-f-g": {
+    "function": "optionality",
+    "dimension": "flexibility",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.groups.optionality",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.groups.optionality"
+  },
+  "outcome-unit-count-activity-granularity-q-a": {
+    "function": "outcome_unit_count",
+    "dimension": "quality",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.activities.outcome_unit_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.activities.outcome_unit_count"
+  },
+  "outcome-unit-count-case-granularity-q-c": {
+    "function": "outcome_unit_count",
+    "dimension": "quality",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.cases.outcome_unit_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.cases.outcome_unit_count"
+  },
+  "outcome-unit-count-group-of-cases-granularity-q-g": {
+    "function": "outcome_unit_count",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.outcome_unit_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.outcome_unit_count"
+  },
+  "outcome-unit-count-considering-single-events-of-activity-instances-activity-instance-granularity-q-i": {
+    "function": "outcome_unit_count_for_single_events_of_activity_instances",
+    "dimension": "quality",
+    "granularity_file": "instances",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.instances.outcome_unit_count_for_single_events_of_activity_instances",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.instances.outcome_unit_count_for_single_events_of_activity_instances"
+  },
+  "outcome-unit-count-considering-the-sum-of-all-events-of-activity-instances-activity-instance-granularity-q-i": {
+    "function": "outcome_unit_count_for_sum_of_all_events_of_activity_instances",
+    "dimension": "quality",
+    "granularity_file": "instances",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.instances.outcome_unit_count_for_sum_of_all_events_of_activity_instances",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.instances.outcome_unit_count_for_sum_of_all_events_of_activity_instances"
+  },
+  "overall-quality-case-granularity-q-c": {
+    "function": "overall_quality",
+    "dimension": "quality",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.cases.overall_quality",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.cases.overall_quality"
+  },
+  "overhead-cost-case-granularity-c-c": {
+    "function": "overhead_cost",
+    "dimension": "cost",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.cases.overhead_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.cases.overhead_cost"
+  },
+  "overhead-cost-group-of-cases-granularity-c-g": {
+    "function": "overhead_cost",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.overhead_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.overhead_cost"
+  },
+  "repeatability-case-granularity-q-c": {
+    "function": "repeatability",
+    "dimension": "quality",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.cases.repeatability",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.cases.repeatability"
+  },
+  "repeatability-group-of-cases-granularity-q-g": {
+    "function": "repeatability",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.repeatability",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.repeatability"
+  },
+  "resource-count-activity-granularity-c-a": {
+    "function": "resource_count",
+    "dimension": "cost",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.activities.resource_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.activities.resource_count"
+  },
+  "resource-count-case-granularity-c-c": {
+    "function": "resource_count",
+    "dimension": "cost",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.cases.resource_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.cases.resource_count"
+  },
+  "resource-count-group-of-cases-granularity-c-g": {
+    "function": "resource_count",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.resource_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.resource_count"
+  },
+  "resource-count-activity-granularity-g-a": {
+    "function": "resource_count",
+    "dimension": "general",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/general/#process_performance_indicators.indicators.general.activities.resource_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/general/",
+    "function_path": "process_performance_indicators.indicators.general.activities.resource_count"
+  },
+  "resource-count-case-granularity-g-c": {
+    "function": "resource_count",
+    "dimension": "general",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/general/#process_performance_indicators.indicators.general.cases.resource_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/general/",
+    "function_path": "process_performance_indicators.indicators.general.cases.resource_count"
+  },
+  "resource-count-group-of-cases-granularity-g-g": {
+    "function": "resource_count",
+    "dimension": "general",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/general/#process_performance_indicators.indicators.general.groups.resource_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/general/",
+    "function_path": "process_performance_indicators.indicators.general.groups.resource_count"
+  },
+  "rework-cost-activity-granularity-c-a": {
+    "function": "rework_cost",
+    "dimension": "cost",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.activities.rework_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.activities.rework_cost"
+  },
+  "rework-cost-case-granularity-c-c": {
+    "function": "rework_cost",
+    "dimension": "cost",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.cases.rework_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.cases.rework_cost"
+  },
+  "rework-cost-group-of-cases-granularity-c-g": {
+    "function": "rework_cost",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.rework_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.rework_cost"
+  },
+  "rework-count-activity-granularity-c-a": {
+    "function": "rework_count",
+    "dimension": "cost",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.activities.rework_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.activities.rework_count"
+  },
+  "rework-count-case-granularity-c-c": {
+    "function": "rework_count",
+    "dimension": "cost",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.cases.rework_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.cases.rework_count"
+  },
+  "rework-count-group-of-cases-granularity-c-g": {
+    "function": "rework_count",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.rework_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.rework_count"
+  },
+  "rework-count-activity-granularity-q-a": {
+    "function": "rework_count",
+    "dimension": "quality",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.activities.rework_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.activities.rework_count"
+  },
+  "rework-count-case-granularity-q-c": {
+    "function": "rework_count",
+    "dimension": "quality",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.cases.rework_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.cases.rework_count"
+  },
+  "rework-count-group-of-cases-granularity-q-g": {
+    "function": "rework_count",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.rework_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.rework_count"
+  },
+  "rework-count-by-value-activity-granularity-q-a": {
+    "function": "rework_count_by_value",
+    "dimension": "quality",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.activities.rework_count_by_value",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.activities.rework_count_by_value"
+  },
+  "rework-count-by-value-case-granularity-q-c": {
+    "function": "rework_count_by_value",
+    "dimension": "quality",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.cases.rework_count_by_value",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.cases.rework_count_by_value"
+  },
+  "rework-count-by-value-group-of-cases-granularity-q-g": {
+    "function": "rework_count_by_value",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.rework_count_by_value",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.rework_count_by_value"
+  },
+  "rework-of-activities-subset-case-granularity-q-c": {
+    "function": "rework_of_activities_subset",
+    "dimension": "quality",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.cases.rework_of_activities_subset",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.cases.rework_of_activities_subset"
+  },
+  "rework-of-activities-subset-group-of-cases-granularity-q-g": {
+    "function": "rework_of_activities_subset",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.rework_of_activities_subset",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.rework_of_activities_subset"
+  },
+  "rework-percentage-activity-granularity-c-a": {
+    "function": "rework_percentage",
+    "dimension": "cost",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.activities.rework_percentage",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.activities.rework_percentage"
+  },
+  "rework-percentage-case-granularity-c-c": {
+    "function": "rework_percentage",
+    "dimension": "cost",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.cases.rework_percentage",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.cases.rework_percentage"
+  },
+  "rework-percentage-group-of-cases-granularity-c-g": {
+    "function": "rework_percentage",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.rework_percentage",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.rework_percentage"
+  },
+  "rework-percentage-activity-granularity-q-a": {
+    "function": "rework_percentage",
+    "dimension": "quality",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.activities.rework_percentage",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.activities.rework_percentage"
+  },
+  "rework-percentage-case-granularity-q-c": {
+    "function": "rework_percentage",
+    "dimension": "quality",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.cases.rework_percentage",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.cases.rework_percentage"
+  },
+  "rework-percentage-group-of-cases-granularity-q-g": {
+    "function": "rework_percentage",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.rework_percentage",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.rework_percentage"
+  },
+  "rework-percentage-by-value-activity-granularity-q-a": {
+    "function": "rework_percentage_by_value",
+    "dimension": "quality",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.activities.rework_percentage_by_value",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.activities.rework_percentage_by_value"
+  },
+  "rework-percentage-by-value-case-granularity-q-c": {
+    "function": "rework_percentage_by_value",
+    "dimension": "quality",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.cases.rework_percentage_by_value",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.cases.rework_percentage_by_value"
+  },
+  "rework-percentage-by-value-group-of-cases-granularity-q-g": {
+    "function": "rework_percentage_by_value",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.rework_percentage_by_value",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.rework_percentage_by_value"
+  },
+  "rework-time-activity-granularity-q-a": {
+    "function": "rework_time",
+    "dimension": "quality",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.activities.rework_time",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.activities.rework_time"
+  },
+  "rework-time-case-granularity-q-c": {
+    "function": "rework_time",
+    "dimension": "quality",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.cases.rework_time",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.cases.rework_time"
+  },
+  "rework-time-group-of-cases-granularity-q-g": {
+    "function": "rework_time",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.rework_time",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.rework_time"
+  },
+  "role-and-variant-count-ratio-group-of-cases-granularity-f-g": {
+    "function": "role_and_variant_count_ratio",
+    "dimension": "flexibility",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.groups.role_and_variant_count_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.groups.role_and_variant_count_ratio"
+  },
+  "role-count-case-granularity-f-c": {
+    "function": "role_count",
+    "dimension": "flexibility",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.cases.role_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.cases.role_count"
+  },
+  "role-count-group-of-cases-granularity-f-g": {
+    "function": "role_count",
+    "dimension": "flexibility",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.groups.role_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.groups.role_count"
+  },
+  "role-count-case-granularity-g-c": {
+    "function": "role_count",
+    "dimension": "general",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/general/#process_performance_indicators.indicators.general.cases.role_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/general/",
+    "function_path": "process_performance_indicators.indicators.general.cases.role_count"
+  },
+  "role-count-group-of-cases-granularity-g-g": {
+    "function": "role_count",
+    "dimension": "general",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/general/#process_performance_indicators.indicators.general.groups.role_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/general/",
+    "function_path": "process_performance_indicators.indicators.general.groups.role_count"
+  },
+  "service-and-lead-time-ratio-activity-granularity-t-a": {
+    "function": "service_and_lead_time_ratio",
+    "dimension": "time",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.activities.service_and_lead_time_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.activities.service_and_lead_time_ratio"
+  },
+  "service-and-lead-time-ratio-case-granularity-t-c": {
+    "function": "service_and_lead_time_ratio",
+    "dimension": "time",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.cases.service_and_lead_time_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.cases.service_and_lead_time_ratio"
+  },
+  "service-and-lead-time-ratio-group-of-cases-granularity-t-g": {
+    "function": "service_and_lead_time_ratio",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.service_and_lead_time_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.service_and_lead_time_ratio"
+  },
+  "service-and-lead-time-ratio-activity-instance-granularity-t-i": {
+    "function": "service_and_lead_time_ratio",
+    "dimension": "time",
+    "granularity_file": "instances",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.instances.service_and_lead_time_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.instances.service_and_lead_time_ratio"
+  },
+  "service-time-activity-granularity-t-a": {
+    "function": "service_time",
+    "dimension": "time",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.activities.service_time",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.activities.service_time"
+  },
+  "service-time-case-granularity-t-c": {
+    "function": "service_time",
+    "dimension": "time",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.cases.service_time",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.cases.service_time"
+  },
+  "service-time-group-of-cases-granularity-t-g": {
+    "function": "service_time",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.service_time",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.service_time"
+  },
+  "service-time-activity-instance-granularity-t-i": {
+    "function": "service_time",
+    "dimension": "time",
+    "granularity_file": "instances",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.instances.service_time",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.instances.service_time"
+  },
+  "service-time-from-activity-a-to-activity-b-case-granularity-t-c": {
+    "function": "service_time_from_activity_a_to_b",
+    "dimension": "time",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.cases.service_time_from_activity_a_to_b",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.cases.service_time_from_activity_a_to_b"
+  },
+  "service-time-from-activity-a-to-activity-b-group-of-cases-granularity-t-g": {
+    "function": "service_time_from_activity_a_to_b",
+    "dimension": "time",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.groups.service_time_from_activity_a_to_b",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.groups.service_time_from_activity_a_to_b"
+  },
+  "successful-outcome-unit-count-activity-granularity-q-a": {
+    "function": "successful_outcome_unit_count",
+    "dimension": "quality",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.activities.successful_outcome_unit_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.activities.successful_outcome_unit_count"
+  },
+  "successful-outcome-unit-count-case-granularity-q-c": {
+    "function": "successful_outcome_unit_count",
+    "dimension": "quality",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.cases.successful_outcome_unit_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.cases.successful_outcome_unit_count"
+  },
+  "successful-outcome-unit-count-group-of-cases-granularity-q-g": {
+    "function": "successful_outcome_unit_count",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.successful_outcome_unit_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.successful_outcome_unit_count"
+  },
+  "successful-outcome-unit-count-activity-instance-granularity-q-i": {
+    "function": "successful_outcome_unit_count",
+    "dimension": "quality",
+    "granularity_file": "instances",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.instances.successful_outcome_unit_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.instances.successful_outcome_unit_count"
+  },
+  "successful-outcome-unit-percentage-activity-granularity-q-a": {
+    "function": "successful_outcome_unit_percentage",
+    "dimension": "quality",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.activities.successful_outcome_unit_percentage",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.activities.successful_outcome_unit_percentage"
+  },
+  "successful-outcome-unit-percentage-case-granularity-q-c": {
+    "function": "successful_outcome_unit_percentage",
+    "dimension": "quality",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.cases.successful_outcome_unit_percentage",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.cases.successful_outcome_unit_percentage"
+  },
+  "successful-outcome-unit-percentage-group-of-cases-granularity-q-g": {
+    "function": "successful_outcome_unit_percentage",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.successful_outcome_unit_percentage",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.successful_outcome_unit_percentage"
+  },
+  "successful-outcome-unit-percentage-activity-instance-granularity-q-i": {
+    "function": "successful_outcome_unit_percentage",
+    "dimension": "quality",
+    "granularity_file": "instances",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.instances.successful_outcome_unit_percentage",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.instances.successful_outcome_unit_percentage"
+  },
+  "total-cost-activity-granularity-c-a": {
+    "function": "total_cost",
+    "dimension": "cost",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.activities.total_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.activities.total_cost"
+  },
+  "total-cost-case-granularity-c-c": {
+    "function": "total_cost",
+    "dimension": "cost",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.cases.total_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.cases.total_cost"
+  },
+  "total-cost-group-of-cases-granularity-c-g": {
+    "function": "total_cost",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.total_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.total_cost"
+  },
+  "total-cost-and-client-count-ratio-activity-granularity-q-a": {
+    "function": "total_cost_and_client_count_ratio",
+    "dimension": "quality",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.activities.total_cost_and_client_count_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.activities.total_cost_and_client_count_ratio"
+  },
+  "total-cost-and-client-count-ratio-group-of-cases-granularity-q-g": {
+    "function": "total_cost_and_client_count_ratio",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.total_cost_and_client_count_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.total_cost_and_client_count_ratio"
+  },
+  "total-cost-and-lead-time-ratio-activity-granularity-c-a": {
+    "function": "total_cost_and_lead_time_ratio",
+    "dimension": "cost",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.activities.total_cost_and_lead_time_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.activities.total_cost_and_lead_time_ratio"
+  },
+  "total-cost-and-lead-time-ratio-case-granularity-c-c": {
+    "function": "total_cost_and_lead_time_ratio",
+    "dimension": "cost",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.cases.total_cost_and_lead_time_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.cases.total_cost_and_lead_time_ratio"
+  },
+  "total-cost-and-lead-time-ratio-group-of-cases-granularity-c-g": {
+    "function": "total_cost_and_lead_time_ratio",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.total_cost_and_lead_time_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.total_cost_and_lead_time_ratio"
+  },
+  "total-cost-and-lead-time-ratio-activity-instance-granularity-c-i": {
+    "function": "total_cost_and_lead_time_ratio",
+    "dimension": "cost",
+    "granularity_file": "instances",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.instances.total_cost_and_lead_time_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.instances.total_cost_and_lead_time_ratio"
+  },
+  "total-cost-and-outcome-unit-ratio-activity-granularity-c-a": {
+    "function": "total_cost_and_outcome_unit_ratio",
+    "dimension": "cost",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.activities.total_cost_and_outcome_unit_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.activities.total_cost_and_outcome_unit_ratio"
+  },
+  "total-cost-and-outcome-unit-ratio-case-granularity-c-c": {
+    "function": "total_cost_and_outcome_unit_ratio",
+    "dimension": "cost",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.cases.total_cost_and_outcome_unit_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.cases.total_cost_and_outcome_unit_ratio"
+  },
+  "total-cost-and-outcome-unit-ratio-group-of-cases-granularity-c-g": {
+    "function": "total_cost_and_outcome_unit_ratio",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.total_cost_and_outcome_unit_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.total_cost_and_outcome_unit_ratio"
+  },
+  "total-cost-and-outcome-unit-ratio-activity-instance-granularity-c-i": {
+    "function": "total_cost_and_outcome_unit_ratio",
+    "dimension": "cost",
+    "granularity_file": "instances",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.instances.total_cost_and_outcome_unit_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.instances.total_cost_and_outcome_unit_ratio"
+  },
+  "total-cost-and-service-time-ratio-activity-granularity-c-a": {
+    "function": "total_cost_and_service_time_ratio",
+    "dimension": "cost",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.activities.total_cost_and_service_time_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.activities.total_cost_and_service_time_ratio"
+  },
+  "total-cost-and-service-time-ratio-case-granularity-c-c": {
+    "function": "total_cost_and_service_time_ratio",
+    "dimension": "cost",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.cases.total_cost_and_service_time_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.cases.total_cost_and_service_time_ratio"
+  },
+  "total-cost-and-service-time-ratio-group-of-cases-granularity-c-g": {
+    "function": "total_cost_and_service_time_ratio",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.total_cost_and_service_time_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.total_cost_and_service_time_ratio"
+  },
+  "total-cost-and-service-time-ratio-activity-instance-granularity-c-i": {
+    "function": "total_cost_and_service_time_ratio",
+    "dimension": "cost",
+    "granularity_file": "instances",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.instances.total_cost_and_service_time_ratio",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.instances.total_cost_and_service_time_ratio"
+  },
+  "total-cost-considering-single-events-of-activity-instances-activity-instance-granularity-c-i": {
+    "function": "total_cost_for_single_events_of_activity_instances",
+    "dimension": "cost",
+    "granularity_file": "instances",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.instances.total_cost_for_single_events_of_activity_instances",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.instances.total_cost_for_single_events_of_activity_instances"
+  },
+  "total-cost-considering-the-sum-of-all-events-of-activity-instances-activity-instance-granularity-c-i": {
+    "function": "total_cost_for_sum_of_all_events_of_activity_instances",
+    "dimension": "cost",
+    "granularity_file": "instances",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.instances.total_cost_for_sum_of_all_events_of_activity_instances",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.instances.total_cost_for_sum_of_all_events_of_activity_instances"
+  },
+  "transportation-cost-case-granularity-c-c": {
+    "function": "transportation_cost",
+    "dimension": "cost",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.cases.transportation_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.cases.transportation_cost"
+  },
+  "transportation-cost-group-of-cases-granularity-c-g": {
+    "function": "transportation_cost",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.transportation_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.transportation_cost"
+  },
+  "unwanted-activity-count-case-granularity-q-c": {
+    "function": "unwanted_activity_count",
+    "dimension": "quality",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.cases.unwanted_activity_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.cases.unwanted_activity_count"
+  },
+  "unwanted-activity-count-group-of-cases-granularity-q-g": {
+    "function": "unwanted_activity_count",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.unwanted_activity_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.unwanted_activity_count"
+  },
+  "unwanted-activity-instance-count-case-granularity-q-c": {
+    "function": "unwanted_activity_instance_count",
+    "dimension": "quality",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.cases.unwanted_activity_instance_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.cases.unwanted_activity_instance_count"
+  },
+  "unwanted-activity-instance-count-group-of-cases-granularity-q-g": {
+    "function": "unwanted_activity_instance_count",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.unwanted_activity_instance_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.unwanted_activity_instance_count"
+  },
+  "unwanted-activity-instance-percentage-case-granularity-q-c": {
+    "function": "unwanted_activity_instance_percentage",
+    "dimension": "quality",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.cases.unwanted_activity_instance_percentage",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.cases.unwanted_activity_instance_percentage"
+  },
+  "unwanted-activity-instance-percentage-group-of-cases-granularity-q-g": {
+    "function": "unwanted_activity_instance_percentage",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.unwanted_activity_instance_percentage",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.unwanted_activity_instance_percentage"
+  },
+  "unwanted-activity-percentage-case-granularity-q-c": {
+    "function": "unwanted_activity_percentage",
+    "dimension": "quality",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.cases.unwanted_activity_percentage",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.cases.unwanted_activity_percentage"
+  },
+  "unwanted-activity-percentage-group-of-cases-granularity-q-g": {
+    "function": "unwanted_activity_percentage",
+    "dimension": "quality",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/#process_performance_indicators.indicators.quality.groups.unwanted_activity_percentage",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/quality/",
+    "function_path": "process_performance_indicators.indicators.quality.groups.unwanted_activity_percentage"
+  },
+  "variable-cost-activity-granularity-c-a": {
+    "function": "variable_cost",
+    "dimension": "cost",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.activities.variable_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.activities.variable_cost"
+  },
+  "variable-cost-case-granularity-c-c": {
+    "function": "variable_cost",
+    "dimension": "cost",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.cases.variable_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.cases.variable_cost"
+  },
+  "variable-cost-group-of-cases-granularity-c-g": {
+    "function": "variable_cost",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.variable_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.variable_cost"
+  },
+  "variable-cost-considering-single-events-of-activity-instances-activity-instance-granularity-c-i": {
+    "function": "variable_cost_for_single_events_of_activity_instances",
+    "dimension": "cost",
+    "granularity_file": "instances",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.instances.variable_cost_for_single_events_of_activity_instances",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.instances.variable_cost_for_single_events_of_activity_instances"
+  },
+  "variable-cost-considering-the-sum-of-all-events-of-activity-instances-activity-instance-granularity-c-i": {
+    "function": "variable_cost_for_sum_of_all_events_of_activity_instances",
+    "dimension": "cost",
+    "granularity_file": "instances",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.instances.variable_cost_for_sum_of_all_events_of_activity_instances",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.instances.variable_cost_for_sum_of_all_events_of_activity_instances"
+  },
+  "variant-case-coverage-case-granularity-f-c": {
+    "function": "variant_case_coverage",
+    "dimension": "flexibility",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.cases.variant_case_coverage",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.cases.variant_case_coverage"
+  },
+  "variant-case-coverage-group-of-cases-granularity-f-g": {
+    "function": "variant_case_coverage",
+    "dimension": "flexibility",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.groups.variant_case_coverage",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.groups.variant_case_coverage"
+  },
+  "variant-count-group-of-cases-granularity-f-g": {
+    "function": "variant_count",
+    "dimension": "flexibility",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/#process_performance_indicators.indicators.flexibility.groups.variant_count",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/flexibility/",
+    "function_path": "process_performance_indicators.indicators.flexibility.groups.variant_count"
+  },
+  "waiting-time-activity-granularity-t-a": {
+    "function": "waiting_time",
+    "dimension": "time",
+    "granularity_file": "activities",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.activities.waiting_time",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.activities.waiting_time"
+  },
+  "waiting-time-case-granularity-t-c": {
+    "function": "waiting_time",
+    "dimension": "time",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.cases.waiting_time",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.cases.waiting_time"
+  },
+  "waiting-time-activity-instance-granularity-t-i": {
+    "function": "waiting_time",
+    "dimension": "time",
+    "granularity_file": "instances",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.instances.waiting_time",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.instances.waiting_time"
+  },
+  "waiting-time-from-activity-a-to-activity-b-case-granularity-t-c": {
+    "function": "waiting_time_from_activity_a_to_b",
+    "dimension": "time",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/time/#process_performance_indicators.indicators.time.cases.waiting_time_from_activity_a_to_b",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/time/",
+    "function_path": "process_performance_indicators.indicators.time.cases.waiting_time_from_activity_a_to_b"
+  },
+  "warehousing-cost-case-granularity-c-c": {
+    "function": "warehousing_cost",
+    "dimension": "cost",
+    "granularity_file": "cases",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.cases.warehousing_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.cases.warehousing_cost"
+  },
+  "warehousing-cost-group-of-cases-granularity-c-g": {
+    "function": "warehousing_cost",
+    "dimension": "cost",
+    "granularity_file": "groups",
+    "permalink": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/#process_performance_indicators.indicators.cost.groups.warehousing_cost",
+    "module_url": "https://nicoabarca.github.io/process-performance-indicators/reference/cost/",
+    "function_path": "process_performance_indicators.indicators.cost.groups.warehousing_cost"
+  }
+}
