@@ -13,7 +13,7 @@ export default function Home() {
               <div className="spacer_xs"></div>
               <p className="paragraph mw-400">A page for visualizing a collection of indicators</p>
               <div className="spacer_l"></div>
-              <a href="indicators/general.html" className="button home w-button">Explore</a>
+              <a href="indicators" className="button home w-button">Explore</a>
             </div>
           </div>
         </div>
