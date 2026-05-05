@@ -4,6 +4,7 @@ import 'katex/dist/katex.min.css';
 import Latex from 'react-latex-next';
 import { Fragment } from 'react';
 import { getLibraryLink } from '@/lib/libraryLink';
+import { cleanIndicatorName } from '@/lib/indicators';
 
 // Splitter de saltos de línea fuera de math mode.
 // Respeta `$...$`, `$$...$$`, `\(...\)` y `\[...\]` (NO splittea `\\` adentro
@@ -109,7 +110,9 @@ export default async function IndicatorPage({ params }: { params: Promise<{ slug
 
   const { data: indicator, error } = await supabase
     .from('indicator')
-    .select('*, indicator_attribute(attribute(id_attribute, name))')
+    .select(
+      '*, dimension:id_dimension(name), granularity:id_granularity(name), indicator_attribute(attribute(id_attribute, name))',
+    )
     .eq('slug', slug)
     .single();
 
@@ -122,6 +125,12 @@ export default async function IndicatorPage({ params }: { params: Promise<{ slug
     .map((row) => row.attribute?.name)
     .filter((n): n is string => Boolean(n));
 
+  const dimensionName =
+    (indicator as { dimension?: { name?: string } | null }).dimension?.name ?? null;
+  const granularityName =
+    (indicator as { granularity?: { name?: string } | null }).granularity?.name ?? null;
+  const displayName = cleanIndicatorName(indicator.name);
+
   const libraryLink = getLibraryLink(slug);
 
   return (
@@ -132,7 +141,7 @@ export default async function IndicatorPage({ params }: { params: Promise<{ slug
 
             <div className="up-part">
               <div className="ppi-title-row">
-                <h2>{indicator.name}</h2>
+                <h2>{displayName}</h2>
                 {libraryLink && (
                   <a
                     href={libraryLink.permalink}
@@ -162,8 +171,8 @@ export default async function IndicatorPage({ params }: { params: Promise<{ slug
               </div>
               <div><div className="text-block-5">{renderLatex(indicator.function_name)}</div></div>
               <div className="block-classes">
-                <div className="class"><div>Dimension ID:</div><div>{indicator.id_dimension}</div></div>
-                <div className="class"><div>Granularity ID:</div><div>{indicator.id_granularity}</div></div>
+                <div className="class"><div>Dimension:</div><div>{dimensionName ?? '-'}</div></div>
+                <div className="class"><div>Granularity:</div><div>{granularityName ?? '-'}</div></div>
               </div>
             </div>
 

@@ -29,6 +29,18 @@ export type IndicatorFilters = {
 
 // ─── Helpers ──────────────────────────────────────────────────────────────
 
+/**
+ * Limpia el nombre del indicador removiendo el sufijo "(...granularity)".
+ * Ej: "Active Time (case granularity)" → "Active Time"
+ *     "activity Instance count (group of cases granularity)" → "activity Instance count"
+ * La granularidad ya se muestra aparte como su propio campo, por lo que no
+ * tiene sentido repetirla en el nombre.
+ */
+export function cleanIndicatorName(name: string): string {
+  if (!name) return name;
+  return name.replace(/\s*\([^()]*\bgranularity\b[^()]*\)\s*$/i, '').trim();
+}
+
 /** Convierte searchParams (de Next.js) a IndicatorFilters tipado. */
 export function parseFilters(
   sp: Record<string, string | string[] | undefined>,

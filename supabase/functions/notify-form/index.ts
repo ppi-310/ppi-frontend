@@ -10,6 +10,12 @@
 //   NOTIFY_FROM         → remitente verificado en Resend
 //                         (mientras pruebas: onboarding@resend.dev)
 //
+// Variables que Supabase inyecta automáticamente en runtime de Edge Functions
+// (no hay que configurarlas a mano):
+//   SUPABASE_URL              → URL del proyecto
+//   SUPABASE_SERVICE_ROLE_KEY → service role key (necesaria para leer las
+//                               tablas dimension/granularity desde el server)
+//
 // Webhook payload (formato Supabase):
 //   {
 //     "type": "INSERT",
@@ -33,6 +39,8 @@ interface SupabaseWebhookPayload {
 const RESEND_API_KEY = Deno.env.get('RESEND_API_KEY') ?? '';
 const NOTIFY_TO = Deno.env.get('NOTIFY_TO') ?? '';
 const NOTIFY_FROM = Deno.env.get('NOTIFY_FROM') ?? '';
+const SUPABASE_URL = Deno.env.get('SUPABASE_URL') ?? '';
+const SUPABASE_SERVICE_ROLE_KEY = Deno.env.get('SUPABASE_SERVICE_ROLE_KEY') ?? '';
 
 function escapeHtml(s: string): string {
   return s
@@ -43,20 +51,71 @@ function escapeHtml(s: string): string {
     .replace(/'/g, '&#39;');
 }
 
-function buildEmail(payload: SupabaseWebhookPayload): {
+/**
+ * Resuelve el `name` de una fila por su id usando la API REST de PostgREST.
+ * Devuelve null si no se puede resolver (env faltantes, id null, fetch falla).
+ * No lanza: si algo falla, deja al caller mostrar el id como fallback.
+ */
+async function lookupName(
+  table: 'dimension' | 'granularity',
+  idColumn: 'id_dimension' | 'id_granularity',
+  id: number | null | undefined,
+): Promise<string | null> {
+  if (id === null || id === undefined) return null;
+  if (!SUPABASE_URL || !SUPABASE_SERVICE_ROLE_KEY) return null;
+
+  try {
+    const url = `${SUPABASE_URL}/rest/v1/${table}?${idColumn}=eq.${encodeURIComponent(
+      String(id),
+    )}&select=name`;
+    const res = await fetch(url, {
+      headers: {
+        apikey: SUPABASE_SERVICE_ROLE_KEY,
+        Authorization: `Bearer ${SUPABASE_SERVICE_ROLE_KEY}`,
+        Accept: 'application/json',
+      },
+    });
+    if (!res.ok) {
+      console.error(`lookupName(${table}) HTTP ${res.status}`);
+      return null;
+    }
+    const rows = (await res.json()) as { name?: string }[];
+    return rows[0]?.name ?? null;
+  } catch (err) {
+    console.error(`lookupName(${table}) error`, err);
+    return null;
+  }
+}
+
+/** Para mostrar en el email: si tenemos nombre úsalo, si no cae al id, si no `-`. */
+function formatLabel(name: string | null, id: unknown): string {
+  if (name) return name;
+  if (id === null || id === undefined || id === '') return '-';
+  return String(id);
+}
+
+async function buildEmail(payload: SupabaseWebhookPayload): Promise<{
   subject: string;
   text: string;
   html: string;
-} {
+}> {
   const r = payload.record;
   if (payload.table === 'suggestion') {
-    const subject = `Nueva sugerencia de PPI — ${r.name ?? 'Anónimo'}`;
+    // Resolver nombres de dimension y granularity en paralelo
+    const [dimensionName, granularityName] = await Promise.all([
+      lookupName('dimension', 'id_dimension', r.id_dimension),
+      lookupName('granularity', 'id_granularity', r.id_granularity),
+    ]);
+    const dimensionLabel = formatLabel(dimensionName, r.id_dimension);
+    const granularityLabel = formatLabel(granularityName, r.id_granularity);
+
+    const subject = `Suggestion PPi - webpage`;
     const lines = [
       `Nombre: ${r.name ?? ''}`,
       `Email: ${r.email ?? ''}`,
       `Phone: ${r.phone ?? '-'}`,
-      `Dimension ID: ${r.id_dimension ?? '-'}`,
-      `Granularity ID: ${r.id_granularity ?? '-'}`,
+      `Dimension: ${dimensionLabel}`,
+      `Granularity: ${granularityLabel}`,
       ``,
       `Mensaje:`,
       `${r.message ?? ''}`,
@@ -69,8 +128,8 @@ function buildEmail(payload: SupabaseWebhookPayload): {
       <p><strong>Nombre:</strong> ${escapeHtml(String(r.name ?? ''))}</p>
       <p><strong>Email:</strong> ${escapeHtml(String(r.email ?? ''))}</p>
       <p><strong>Phone:</strong> ${escapeHtml(String(r.phone ?? '-'))}</p>
-      <p><strong>Dimension ID:</strong> ${escapeHtml(String(r.id_dimension ?? '-'))}</p>
-      <p><strong>Granularity ID:</strong> ${escapeHtml(String(r.id_granularity ?? '-'))}</p>
+      <p><strong>Dimension:</strong> ${escapeHtml(dimensionLabel)}</p>
+      <p><strong>Granularity:</strong> ${escapeHtml(granularityLabel)}</p>
       <h3>Mensaje</h3>
       <pre style="white-space:pre-wrap;font-family:inherit;">${escapeHtml(
         String(r.message ?? ''),
@@ -83,7 +142,7 @@ function buildEmail(payload: SupabaseWebhookPayload): {
   }
 
   if (payload.table === 'contact_message') {
-    const subject = `Nuevo mensaje de contacto — ${r.name ?? 'Anónimo'}`;
+    const subject = `Contact PPi - webpage`;
     const lines = [
       `Nombre: ${r.name ?? ''}`,
       `Email: ${r.email ?? ''}`,
@@ -148,7 +207,7 @@ Deno.serve(async (req) => {
 
   let email: { subject: string; text: string; html: string };
   try {
-    email = buildEmail(payload);
+    email = await buildEmail(payload);
   } catch (err) {
     console.error('Build email error', err);
     return new Response('Unknown table', { status: 400 });

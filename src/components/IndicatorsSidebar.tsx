@@ -121,7 +121,7 @@ export default function IndicatorsSidebar({ granularities, tags }: Props) {
 
       {/* Tags */}
       <div className="filter-ui-section">
-        <div className="text-block-9">Filter by Tags</div>
+        <div className="text-block-9">Filter by required attributes</div>
         <div className="w-dyn-list">
           <div role="list" className="w-dyn-items">
             {tags.map((t) => (

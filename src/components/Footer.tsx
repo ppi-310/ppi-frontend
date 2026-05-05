@@ -7,15 +7,15 @@ export default function Footer() {
         <div className="w-layout-grid footer-top-wrapper">
           <div className="footer-left-wrapper">
             <Link href="/" className="navbar-logo-link w-nav-brand">
-              <img src="https://cdn.prod.website-files.com/66fd99b624ab2c3d7c6c30ad/67474d84b49d26c9b5f31da8_ultra-small-wide-logo.jpg" loading="lazy" width="190" alt="Haplab Logo"/>
+              <img src="/haplab-logo.png" loading="lazy" width="190" alt="Haplab Logo"/>
             </Link>
             <div className="spacer_m"></div>
-            <div className="paragraph">HAPLAB</div>
-            <div className="spacer_m"></div>
+            <div className="paragraph">HAPLAB Social Media</div>
+            <div className="spacer_s"></div>
             <div className="w-layout-grid social-link-wrap">
               {/* Los links a redes sociales o externos SÍ usan la etiqueta <a> normal */}
               <a href="https://linktr.ee/haplab" target="_blank" className="social-link w-inline-block">
-                <img src="https://cdn.prod.website-files.com/66fd99b624ab2c3d7c6c30ad/6747513b6893da7ab7761bd7_images.png" loading="lazy" alt="" className="social-icon"/>
+                <img src="/haplab-logo2.png" loading="lazy" alt="" className="social-icon"/>
               </a>
               <a href="https://www.instagram.com/haplaborg?igsh=MW55NHliM3oycGZtNg==" target="_blank" className="social-link w-inline-block">
                 <div className="social-icon w-embed">
