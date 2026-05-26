@@ -3,6 +3,7 @@
 import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import type { Tag, Granularity } from '@/lib/indicators';
+import { useNavigationLoading } from './NavigationLoading';
 
 type Props = {
   granularities: Granularity[];
@@ -13,6 +14,7 @@ export default function IndicatorsSidebar({ granularities, tags }: Props) {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
+  const { startNavigation } = useNavigationLoading();
 
   const currentGran = searchParams.get('granularity') ?? '';
   const currentQ = searchParams.get('q') ?? '';
@@ -40,7 +42,9 @@ export default function IndicatorsSidebar({ granularities, tags }: Props) {
   }
 
   function navigate(updates: Record<string, string | string[] | null>) {
-    router.push(buildUrl(updates), { scroll: false });
+    startNavigation(() => {
+      router.push(buildUrl(updates), { scroll: false });
+    });
   }
 
   function onSearchSubmit(e: React.FormEvent) {
@@ -65,7 +69,9 @@ export default function IndicatorsSidebar({ granularities, tags }: Props) {
   }
 
   function clearAll() {
-    router.push(pathname, { scroll: false });
+    startNavigation(() => {
+      router.push(pathname, { scroll: false });
+    });
   }
 
   const hasAnyFilter = currentQ || currentGran || currentTags.length > 0;

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { NavigationLoadingProvider } from "@/components/NavigationLoading";
 
 export const metadata: Metadata = {
   title: "PPI Repository",
@@ -16,9 +17,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Navbar />
-        {children}
-        <Footer />
+        <NavigationLoadingProvider>
+          <Navbar />
+          {children}
+          <Footer />
+        </NavigationLoadingProvider>
       </body>
     </html>
   );

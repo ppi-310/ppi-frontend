@@ -1,5 +1,5 @@
-// Layout compartido por todas las páginas de listado de indicadores.
-// Recibe la dimensión y los searchParams; resuelve queries y arma la UI.
+// Layout compartido por todas las paginas de listado de indicadores.
+// Recibe la dimension y los searchParams; resuelve queries y arma la UI.
 
 import {
   getFilteredIndicators,
@@ -13,7 +13,7 @@ import IndicatorsGrid from '@/components/IndicatorsGrid';
 
 type Props = {
   current: DimensionKey;
-  dimensionId: number | null; // null = page general (no filtra por dimensión)
+  dimensionId: number | null;
   searchParams: Record<string, string | string[] | undefined>;
 };
 

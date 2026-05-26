@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import NavLink from './NavLink';
 
 export type DimensionKey = 'general' | 'time' | 'cost' | 'quality' | 'flexibility';
 
@@ -22,7 +22,7 @@ export default function DimensionsNavbar({ current }: Props) {
           {DIMS.map((d) => {
             const isCurrent = d.key === current;
             return (
-              <Link
+              <NavLink
                 key={d.key}
                 href={d.href}
                 {...(isCurrent ? { 'aria-current': 'page' as const } : {})}
@@ -33,7 +33,7 @@ export default function DimensionsNavbar({ current }: Props) {
                 }
               >
                 {d.label}
-              </Link>
+              </NavLink>
             );
           })}
         </nav>

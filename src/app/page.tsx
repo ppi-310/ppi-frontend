@@ -1,8 +1,8 @@
+import NavLink from '@/components/NavLink';
+
 export default function Home() {
   return (
     <main>
-      
-
       <div className="main-section_home">
         <div className="main-container_s1">
           <div className="content-wrap_center">
@@ -13,7 +13,7 @@ export default function Home() {
               <div className="spacer_xs"></div>
               <p className="paragraph mw-400">A page for visualizing a collection of indicators</p>
               <div className="spacer_l"></div>
-              <a href="indicators" className="button home w-button">Explore</a>
+              <NavLink href="/indicators" className="button home w-button">Explore</NavLink>
             </div>
           </div>
         </div>
@@ -39,10 +39,10 @@ export default function Home() {
             <div id="w-node-ba83af13-d9db-9f64-cc4a-7a13ef88fef2-7c6c31da" className="content-wrap">
               <h2 className="h2">The Devil&#x27;s Quadrangle: Navigating Trade-offs in Process Performance</h2>
               <div className="spacer_m"></div>
-              <p className="paragraph">At the heart of process performance analysis is the <strong className="bold-text-6">Devil&#x27;s Quadrangle (DQ)</strong>—a framework that highlights the inherent trade-offs between four key performance dimensions: <strong>Time</strong>, <strong>Cost</strong>, <strong>Flexibility</strong>, and <strong>Quality</strong>.</p>
+              <p className="paragraph">At the heart of process performance analysis is the <strong className="bold-text-6">Devil&#x27;s Quadrangle (DQ)</strong>&mdash;a framework that highlights the inherent trade-offs between four key performance dimensions: <strong>Time</strong>, <strong>Cost</strong>, <strong>Flexibility</strong>, and <strong>Quality</strong>.</p>
               <div className="spacer_l"></div>
             </div>
-            
+
             <div id="w-node-_5a47d43e-731f-62de-f8fd-79cb4f978bea-7c6c31da" className="w-layout-grid grid_features">
               <div id="w-node-_5a47d43e-731f-62de-f8fd-79cb4f978beb-7c6c31da" className="card_small no-borders">
                 <div className="icon w-embed">
@@ -94,7 +94,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
     </main>
   );
 }

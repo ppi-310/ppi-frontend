@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import NavLink from './NavLink';
 import { cleanIndicatorName, type Indicator } from '@/lib/indicators';
 
 type Props = {
@@ -29,12 +29,12 @@ export default function IndicatorsGrid({ indicators }: Props) {
               >
                 <div className="div-block-4">
                   <div className="div-block-5">
-                    <Link
+                    <NavLink
                       href={`/indicators/${indicator.slug}`}
                       className="link-block-2 w-inline-block"
                     >
                       <div className="text-block-4">{cleanIndicatorName(indicator.name)}</div>
-                    </Link>
+                    </NavLink>
                     <div className="div-block-9">
                       <div className="text-block-13">Granularity:</div>
                       <div className="text-block-3">{indicator.granularity?.name}</div>
