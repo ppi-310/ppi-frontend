@@ -4,7 +4,8 @@ import 'katex/dist/katex.min.css';
 import Latex from 'react-latex-next';
 import { Fragment } from 'react';
 import { getLibraryLink } from '@/lib/libraryLink';
-import { cleanIndicatorName } from '@/lib/indicators';
+import { cleanIndicatorName, tagFilterHref } from '@/lib/indicators';
+import TagButton from '@/components/TagButton';
 
 // Splitter de saltos de línea fuera de math mode.
 // Respeta `$...$`, `$$...$$`, `\(...\)` y `\[...\]` (NO splittea `\\` adentro
@@ -242,17 +243,19 @@ export default async function IndicatorPage({ params }: { params: Promise<{ slug
               <div className="w-layout-grid grid">
                 <h4 className="h4">Tags</h4>
                 <div className="collection-list-wrapper-3 w-dyn-list">
-                  <div role="list" className="collection-list-4 w-dyn-items">
-                    {tags.length === 0 ? (
-                      <div role="listitem" className="w-dyn-item"><div className="tag-chip">-</div></div>
-                    ) : (
-                      tags.map((t) => (
-                        <div key={t} role="listitem" className="w-dyn-item">
-                          <div className="tag-chip">{t}</div>
-                        </div>
-                      ))
-                    )}
-                  </div>
+                  {tags.length === 0 ? (
+                    <p className="paragraph">-</p>
+                  ) : (
+                    <div className="tag-button-group">
+                      {tags.map((t) => (
+                        <TagButton
+                          key={t}
+                          name={t}
+                          href={tagFilterHref(dimensionName, t)}
+                        />
+                      ))}
+                    </div>
+                  )}
                 </div>
               </div>
             </div>

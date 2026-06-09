@@ -1,4 +1,5 @@
 import NavLink from './NavLink';
+import TagButton from './TagButton';
 import { cleanIndicatorName, type Indicator } from '@/lib/indicators';
 
 type Props = {
@@ -42,19 +43,14 @@ export default function IndicatorsGrid({ indicators }: Props) {
                   </div>
                   <div>
                     <div className="collection-list-wrapper-2 w-dyn-list">
-                      <div role="list" className="collection-list-3 w-dyn-items">
+                      <div className="tag-button-group tag-button-group--card">
                         {indicator.indicator_attribute?.map(
                           (ia) =>
                             ia.attribute && (
-                              <div
+                              <TagButton
                                 key={ia.attribute.id_attribute}
-                                role="listitem"
-                                className="w-dyn-item"
-                              >
-                                <div>
-                                  <div>{ia.attribute.name}</div>
-                                </div>
-                              </div>
+                                name={ia.attribute.name}
+                              />
                             ),
                         )}
                       </div>

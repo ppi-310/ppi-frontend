@@ -3,6 +3,14 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* COLOR de las palabras clave: "Devil's Quadrangle (DQ)" y
+     "General, Time, Cost, Quality, Flexibility".
+     Cambia SOLO el valor de abajo para probar otro color (ej: green, #49268f, #d62828).
+     Afecta a todas esas palabras a la vez.
+     IMPORTANTE: si cambias esto y el navegador no se actualiza, reinicia el
+     servidor (corta y vuelve a correr "npm run dev") y recarga con Ctrl+Shift+R. */
+  --keyword-color: #434de7;
 }
 
 html {
@@ -46,6 +54,13 @@ abbr[title] {
 }
 
 b, strong {
+  font-weight: bold;
+}
+
+/* Palabras clave resaltadas (DQ y las dimensiones).
+   Su color se controla con --keyword-color (definido en :root). */
+.keyword {
+  color: var(--keyword-color);
   font-weight: bold;
 }
 
@@ -2060,6 +2075,14 @@ textarea.w-input, textarea.w-select {
   --color-on-cta: white;
   --input-borders: #b7bbd1;
   --gray: #efefef;
+
+  /* ╔══════════════════════════════════════════════════════════════════╗
+     ║  COLOR de las palabras clave: "Devil's Quadrangle (DQ)" y         ║
+     ║  "General, Time, Cost, Quality, Flexibility".                     ║
+     ║  Cambiá SOLO esta línea para probar otro color (ej: 'black',      ║
+     ║  '#49268f', '#d62828'). Afecta a todas esas palabras a la vez.   ║
+     ╚══════════════════════════════════════════════════════════════════╝ */
+  --keyword-color: #4950b1;
 }
 
 .w-layout-grid {
@@ -6506,6 +6529,65 @@ blockquote {
   text-decoration: none;
 }
 
+/* ─── Tags estilo botón ───────────────────────────────────────────────
+   Color del borde/texto: cambiar la variable --tag-color de abajo. */
+.tag-button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.tag-button {
+  --tag-color: #49268f;
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 16px;
+  border: 2px solid var(--tag-color) !important;
+  border-radius: 999px;
+  background-color: var(--tag-color) !important;
+  color: #fff !important;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none !important;
+  white-space: nowrap;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+  transition: filter .15s ease, transform .1s ease;
+}
+
+/* Clickeable (con href): hover/active feedback */
+a.tag-button {
+  cursor: pointer;
+}
+
+a.tag-button:hover {
+  filter: brightness(1.15);
+}
+
+a.tag-button:active {
+  transform: translateY(1px);
+}
+
+/* Estático (tarjetas del grid): no clickeable */
+.tag-button--static {
+  cursor: default;
+  box-shadow: none;
+}
+
+/* Tags dentro de las tarjetas del grid: centrados y con aire */
+.tag-button-group--card {
+  justify-content: center;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.tag-button-group--card .tag-button {
+  padding: 3px 12px;
+  font-size: 12px;
+  border-width: 1.5px;
+}
+
 .hero-contact_us-copy {
   background-color: var(--color-on-cta);
   border-bottom: 1px solid #e4ebf3;
@@ -7806,4 +7888,98 @@ blockquote {
     width: 100%;
     justify-content: center;
   }
+}
+
+/* ─── Vista combinada /contact-us: dos columnas ──────────────────────── */
+.connect-two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+@media screen and (max-width: 767px) {
+  .connect-two-col {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+/* ─── Contributors / Our Team (vista combinada /contact-us) ───────────── */
+.contributors-section {
+  margin-top: 0;
+}
+
+.contributors-header {
+  text-align: center;
+}
+
+.contributors-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.contributor-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+  width: 220px;
+  padding: 24px 16px;
+  border: 1px solid #e4ebf3;
+  border-radius: 12px;
+  background: var(--color-on-cta, #fff);
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow .15s ease, transform .15s ease, border-color .15s ease;
+}
+
+.contributor-card:hover {
+  box-shadow: 0 6px 18px rgba(73, 38, 143, 0.12);
+  border-color: #49268f;
+  transform: translateY(-2px);
+}
+
+.contributor-email {
+  font-size: 13px;
+  word-break: break-word;
+}
+
+.contributor-avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #49268f;
+  color: #fff;
+}
+
+.contributor-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contributor-initials {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.contributor-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.contributor-role {
+  font-size: 14px;
+  color: var(--button-default, #49268f);
 }

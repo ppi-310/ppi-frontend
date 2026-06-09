@@ -41,6 +41,33 @@ export function cleanIndicatorName(name: string): string {
   return name.replace(/\s*\([^()]*\bgranularity\b[^()]*\)\s*$/i, '').trim();
 }
 
+/**
+ * Ruta de listado de indicadores para una dimensión dada (por su nombre).
+ * "Time" -> "/indicators/time", "General"/desconocido -> "/indicators".
+ */
+export function dimensionToHref(dimensionName?: string | null): string {
+  const key = (dimensionName ?? '').trim().toLowerCase();
+  const map: Record<string, string> = {
+    time: '/indicators/time',
+    cost: '/indicators/cost',
+    quality: '/indicators/quality',
+    flexibility: '/indicators/flexibility',
+  };
+  return map[key] ?? '/indicators';
+}
+
+/**
+ * Link a la página de indicadores con un tag (required attribute) ya activo
+ * en los filtros, en la dimensión correspondiente.
+ * Ej: dimension "Time", tag "act" -> "/indicators/time?tag=act"
+ */
+export function tagFilterHref(
+  dimensionName: string | null | undefined,
+  tag: string,
+): string {
+  return `${dimensionToHref(dimensionName)}?tag=${encodeURIComponent(tag)}`;
+}
+
 /** Convierte searchParams (de Next.js) a IndicatorFilters tipado. */
 export function parseFilters(
   sp: Record<string, string | string[] | undefined>,

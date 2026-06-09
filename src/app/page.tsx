@@ -24,7 +24,7 @@ export default function Home() {
           <div id="w-node-_5a47d43e-731f-62de-f8fd-79cb4f978be1-7c6c31da" className="content-wrap_center">
             <h2 className="h2">Welcome to Process Performance Insights</h2>
             <div className="spacer_m"></div>
-            <p className="paragraph">This platform allows you to visualize and analyze Process Performance Indicators (PPIs) across multiple dimensions, providing deeper insights into your business processes. Here, we focus on five critical dimensions to evaluate process performance: <strong className="bold-text">General</strong>, <strong className="bold-text-2">Time</strong>, <strong className="bold-text-3">Cost</strong>, <strong className="bold-text-4">Quality</strong>, and <strong className="bold-text-5">Flexibility</strong>.</p>
+            <p className="paragraph">This platform allows you to visualize and analyze Process Performance Indicators (PPIs) across multiple dimensions, providing deeper insights into your business processes. Here, we focus on five critical dimensions to evaluate process performance: <strong className="keyword">General</strong>, <strong className="keyword">Time</strong>, <strong className="keyword">Cost</strong>, <strong className="keyword">Quality</strong>, and <strong className="keyword">Flexibility</strong>.</p>
             <div className="spacer_xxl"></div>
             <h3 className="h3">What Are Process Performance Indicators (PPIs)?</h3>
             <div className="spacer_m"></div>
@@ -39,7 +39,7 @@ export default function Home() {
             <div id="w-node-ba83af13-d9db-9f64-cc4a-7a13ef88fef2-7c6c31da" className="content-wrap">
               <h2 className="h2">The Devil&#x27;s Quadrangle: Navigating Trade-offs in Process Performance</h2>
               <div className="spacer_m"></div>
-              <p className="paragraph">At the heart of process performance analysis is the <strong className="bold-text-6">Devil&#x27;s Quadrangle (DQ)</strong>&mdash;a framework that highlights the inherent trade-offs between four key performance dimensions: <strong>Time</strong>, <strong>Cost</strong>, <strong>Flexibility</strong>, and <strong>Quality</strong>.</p>
+              <p className="paragraph">At the heart of process performance analysis is the <strong className="keyword">Devil&#x27;s Quadrangle (DQ)</strong>&mdash;a framework that highlights the inherent trade-offs between four key performance dimensions: <strong className="keyword">Time</strong>, <strong className="keyword">Cost</strong>, <strong className="keyword">Flexibility</strong>, and <strong className="keyword">Quality</strong>.</p>
               <div className="spacer_l"></div>
             </div>
 

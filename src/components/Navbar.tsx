@@ -12,8 +12,7 @@ export default function Navbar() {
             <NavLink href="/" className="navbar-link w-inline-block w--current"><div>Home</div></NavLink>
             <NavLink href="/formal-bases" className="navbar-link w-inline-block"><div>Formal Bases</div></NavLink>
             <NavLink href="/indicators" className="navbar-link w-inline-block"><div>Indicators</div></NavLink>
-            <NavLink href="/suggestions" className="navbar-link w-inline-block"><div>Suggestions</div></NavLink>
-            <NavLink href="/contact-us" className="navbar-link w-inline-block"><div>Contact Us</div></NavLink>
+            <NavLink href="/contact-us" className="navbar-link w-inline-block"><div>Connect</div></NavLink>
           </nav>
         </div>
       </div>

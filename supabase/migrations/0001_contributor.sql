@@ -1,0 +1,3 @@
+-- (SIN USO) Los contributors ahora viven en el código del frontend:
+--   src/lib/contributors.ts
+-- Se dejó este archivo vacío a propósito. No crea ninguna tabla.

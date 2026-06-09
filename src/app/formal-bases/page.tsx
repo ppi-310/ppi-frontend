@@ -26,10 +26,10 @@ export default function FormalBases() {
           </div>
           <p>
             This document contains formal definitions and mathematical notation for working with process performance indicators (PPIs), covering key dimensions such as:<br /><br />
-            <strong>General:</strong> counts, resources, and roles<br /><br />
-            <strong>Time:</strong> lead time, service time, waiting times<br /><br />
-            <strong>Cost:</strong> direct, labor, inventory, and overhead costs<br /><br />
-            <strong>Quality &amp; Flexibility:</strong> rework, optionality, variant coverage<br /><br />
+            <strong className="keyword">General:</strong> counts, resources, and roles<br /><br />
+            <strong className="keyword">Time:</strong> lead time, service time, waiting times<br /><br />
+            <strong className="keyword">Cost:</strong> direct, labor, inventory, and overhead costs<br /><br />
+            <strong className="keyword">Quality &amp; Flexibility:</strong> rework, optionality, variant coverage<br /><br />
             Includes a rigorous structure for event logs, cases, activities, resources, and attributes, following leading academic standards.
           </p>
         </div>
