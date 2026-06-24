@@ -2,7 +2,7 @@ import NavLink from '@/components/NavLink';
 
 export default function Home() {
   return (
-    <main>
+    <main className="page-home">
       <div className="main-section_home">
         <div className="main-container_s1">
           <div className="content-wrap_center">
@@ -44,7 +44,7 @@ export default function Home() {
             </div>
 
             <div id="w-node-_5a47d43e-731f-62de-f8fd-79cb4f978bea-7c6c31da" className="w-layout-grid grid_features">
-              <div id="w-node-_5a47d43e-731f-62de-f8fd-79cb4f978beb-7c6c31da" className="card_small no-borders">
+              <NavLink href="/indicators/time" id="w-node-_5a47d43e-731f-62de-f8fd-79cb4f978beb-7c6c31da" className="card_small no-borders card-link">
                 <div className="icon w-embed">
                   <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" fill="none"/>
@@ -56,9 +56,9 @@ export default function Home() {
                 <h4 className="h4">Time</h4>
                 <div className="spacer_xxs"></div>
                 <p className="paragraph">How quickly a process is executed.</p>
-              </div>
+              </NavLink>
 
-              <div id="w-node-_7817eaa7-ab74-ab6b-5e92-dd0ebb4c833d-7c6c31da" className="card_small no-borders">
+              <NavLink href="/indicators/cost" id="w-node-_7817eaa7-ab74-ab6b-5e92-dd0ebb4c833d-7c6c31da" className="card_small no-borders card-link">
                 <div className="icon w-embed">
                   <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" fill="none"/>
@@ -69,17 +69,17 @@ export default function Home() {
                 <h4 className="h4">Cost</h4>
                 <div className="spacer_xxs"></div>
                 <p className="paragraph">The financial resources required to execute the process.</p>
-              </div>
+              </NavLink>
 
-              <div id="w-node-de4b3672-39bd-c277-63f2-d8e487ba3260-7c6c31da" className="card_small no-borders">
+              <NavLink href="/indicators/flexibility" id="w-node-de4b3672-39bd-c277-63f2-d8e487ba3260-7c6c31da" className="card_small no-borders card-link">
                 <img src="https://cdn.prod.website-files.com/66fd99b624ab2c3d7c6c30ad/674f509e4ca5b95ec1929f19_64653.png" loading="lazy" alt="" className="icon"/>
                 <div className="spacer_xs"></div>
                 <h4 className="h4">Flexibility</h4>
                 <div className="spacer_xxs"></div>
                 <p className="paragraph">The ability of the process to adapt to changes or variations.</p>
-              </div>
+              </NavLink>
 
-              <div id="w-node-f3019a9a-7cf4-985c-32c6-6357a87cab41-7c6c31da" className="card_small no-borders">
+              <NavLink href="/indicators/quality" id="w-node-f3019a9a-7cf4-985c-32c6-6357a87cab41-7c6c31da" className="card_small no-borders card-link">
                 <div className="icon w-embed">
                   <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z" fill="currentColor"/>
@@ -89,7 +89,7 @@ export default function Home() {
                 <h4 className="h4">Quality</h4>
                 <div className="spacer_xxs"></div>
                 <p className="paragraph">The degree to which the process delivers the desired outcome without errors or defects.</p>
-              </div>
+              </NavLink>
             </div>
           </div>
         </div>

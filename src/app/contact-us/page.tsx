@@ -14,7 +14,7 @@ export default async function ContactUs() {
   const granularities = (grans ?? []).map((g) => ({ id: g.id_granularity, label: g.name }));
 
   return (
-    <main className="body">
+    <main className="body page-connect">
       {/* Hero */}
       <section className="section-connect">
         <div className="main-section_s">

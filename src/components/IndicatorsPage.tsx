@@ -31,7 +31,7 @@ export default async function IndicatorsPage({
   ]);
 
   return (
-    <main className="page-wrapper">
+    <main className="page-wrapper page-indicators">
       <div>
         <DimensionsNavbar current={current} />
 

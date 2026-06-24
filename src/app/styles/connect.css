@@ -1,0 +1,24 @@
+/* ============================================================
+   ESTILOS SOLO DE LA PÁGINA  CONNECT   (ruta: /contact-us )
+   ------------------------------------------------------------
+   Todo lo que escribas aquí afecta ÚNICAMENTE a Connect
+   (Contact us / Suggest a PPI / Contributors).
+   Todo va "dentro" de .page-connect.
+
+   Cómo activar un ejemplo: borra los símbolos de comentario
+   (las barras y asteriscos) que rodean la línea que quieras usar.
+   ============================================================ */
+
+.page-connect {
+  /* Color de las franjas grises solo en Connect */
+  /* --band-color: #eaeaea; */
+
+  /* Ancho máximo del contenido solo en Connect */
+  /* --content-max-width: 1000px; */
+
+  /* Tamaño de subtítulos solo en Connect */
+  /* --h2-size: 40px; */
+}
+
+/* Reglas puntuales solo para Connect */
+/* .page-connect .button { background-color: #222222; } */

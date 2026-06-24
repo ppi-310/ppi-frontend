@@ -1,0 +1,37 @@
+/* ============================================================
+   ESTILOS SOLO DE LA PÁGINA  HOME   (ruta: / )
+   ------------------------------------------------------------
+   Todo lo que escribas aquí afecta ÚNICAMENTE al Home.
+   El truco: todo va "dentro" de .page-home, así no se toca
+   ninguna otra página.
+
+   Cómo activar un ejemplo: borra los símbolos de comentario
+   (las barras y asteriscos) que rodean la línea que quieras usar.
+
+   Recuerda: si no se actualiza, reinicia "npm run dev" y
+   recarga con Ctrl+Shift+R.
+   ============================================================ */
+
+.page-home {
+  /* --- Perillas (variables) solo para el Home --- */
+
+  /* Color de las franjas grises solo en el Home */
+  /* --band-color: #eaeaea; */
+
+  /* Alto (espacio arriba/abajo) de las franjas solo en el Home */
+  /* --band-padding-y: 90px; */
+
+  /* Ancho máximo del contenido solo en el Home */
+  /* --content-max-width: 1000px; */
+
+  /* Tamaño del título grande solo en el Home */
+  /* --h1-size: 72px; */
+}
+
+/* --- Reglas puntuales solo para el Home --- */
+
+/* Color del botón "Explore" solo en el Home */
+/* .page-home .button.home { background-color: #222222; } */
+
+/* Separación entre secciones solo en el Home */
+/* .page-home .main-section_home { padding-top: 80px; padding-bottom: 80px; } */

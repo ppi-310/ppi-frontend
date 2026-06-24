@@ -1,7 +1,7 @@
 export default function FormalBases() {
   return (
-    <main className="page-wrapper">
-      
+    <main className="page-wrapper page-formal-bases">
+
       <div className="section">
         <div className="main-container_s1 hero">
           <div className="w-layout-blockcontainer w-container">

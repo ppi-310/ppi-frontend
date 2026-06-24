@@ -1,0 +1,24 @@
+/* ============================================================
+   ESTILOS SOLO DE LAS PÁGINAS DE  INDICATORS
+   (ruta: /indicators y sus dimensiones: time, cost, etc.)
+   ------------------------------------------------------------
+   Todo lo que escribas aquí afecta ÚNICAMENTE a Indicators.
+   Todo va "dentro" de .page-indicators.
+
+   Cómo activar un ejemplo: borra los símbolos de comentario
+   (las barras y asteriscos) que rodean la línea que quieras usar.
+   ============================================================ */
+
+.page-indicators {
+  /* Color de las franjas grises solo en Indicators */
+  /* --band-color: #eaeaea; */
+
+  /* Ancho máximo del contenido solo en Indicators */
+  /* --content-max-width: 1400px; */
+
+  /* Tamaño de subtítulos solo en Indicators */
+  /* --h2-size: 40px; */
+}
+
+/* Reglas puntuales solo para Indicators */
+/* .page-indicators .tag-button { background-color: #222222; } */

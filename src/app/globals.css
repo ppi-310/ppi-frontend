@@ -1,16 +1,61 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Estilos POR PÁGINA (cada archivo solo afecta a su página).
+   Edita estos para tocar una página en particular sin romper las demás. */
+@import "./styles/home.css";
+@import "./styles/formal-bases.css";
+@import "./styles/indicators.css";
+@import "./styles/connect.css";
 
-  /* COLOR de las palabras clave: "Devil's Quadrangle (DQ)" y
-     "General, Time, Cost, Quality, Flexibility".
-     Cambia SOLO el valor de abajo para probar otro color (ej: green, #49268f, #d62828).
-     Afecta a todas esas palabras a la vez.
-     IMPORTANTE: si cambias esto y el navegador no se actualiza, reinicia el
-     servidor (corta y vuelve a correr "npm run dev") y recarga con Ctrl+Shift+R. */
-  --keyword-color: #434de7;
+/* ╔══════════════════════════════════════════════════════════════════════╗
+   ║                          T E M A  /  T H E M E                          ║
+   ║                                                                        ║
+   ║  Este es el ÚNICO lugar donde tienes que editar para cambiar los       ║
+   ║  colores y la tipografía de TODO el sitio. Cambia solo los valores     ║
+   ║  de la derecha (después de los dos puntos).                            ║
+   ║                                                                        ║
+   ║  Si cambias algo y el navegador no se actualiza: reinicia el servidor  ║
+   ║  (corta y vuelve a correr "npm run dev") y recarga con Ctrl+Shift+R.   ║
+   ╚══════════════════════════════════════════════════════════════════════╝ */
+:root {
+  /* ── COLORES DE MARCA ───────────────────────────────────────────────── */
+  --button-default: #434de7;   /* AZUL principal: botones, acentos, CTA, "brand-color" */
+  --text: black;               /* NEGRO de textos y títulos */
+  --color-on-cta: white;       /* color del texto ENCIMA de un botón azul */
+
+  /* ── PALABRAS CLAVE RESALTADAS ──────────────────────────────────────────
+     Afecta a "Devil's Quadrangle (DQ)" y a
+     "General / Time / Cost / Quality / Flexibility".
+     Ej. de valores: black, #49268f, #d62828 */
+  --keyword-color: #4950b1;
+
+  /* ── FONDOS Y SUPERFICIES ───────────────────────────────────────────── */
+  --body-background: white;    /* fondo general de la página */
+  --background: #ffffff;       /* fondo (Next.js / Tailwind) */
+  --foreground: #171717;       /* texto (Next.js / Tailwind) */
+  --gray: #efefef;             /* gris claro (secciones alternas) */
+  --box-borders: #f2f3ff;      /* borde suave de TARJETAS (solo bordes) */
+  --input-borders: #b7bbd1;    /* borde de inputs / campos */
+  --shadow: #1d01501a;         /* sombra de botones y tarjetas */
+
+  /* ── FRANJAS DE SECCIÓN (las "bandas" de color de fondo) ─────────────────
+     Son las secciones con fondo distinto que alternan a lo largo de la página. */
+  --band-color: #f2f3ff;       /* COLOR de las franjas grises/lavanda */
+  --band-padding-y: 60px;      /* ALTO de las franjas (espacio arriba y abajo) */
+
+  /* ── ANCHO Y ESPACIADO GENERAL ──────────────────────────────────────────*/
+  --content-max-width: 1200px; /* ANCHO máximo del contenido (qué tan ancho llega) */
+  --section-padding-y: 60px;   /* SEPARACIÓN vertical entre secciones normales */
+
+  /* ── TIPOGRAFÍA ─────────────────────────────────────────────────────────
+     Cambia la fuente de todo el sitio acá. Recuerda dejar una alternativa
+     genérica al final (ej: sans-serif). Si usas una fuente de Google,
+     impórtala arriba del todo con @import url(...). */
+  --font-body: Outfit, sans-serif;     /* texto general / párrafos */
+  --font-heading: Outfit, sans-serif;  /* títulos h1–h6 */
+  --h1-size: 60px;             /* tamaño del título grande (h1) */
+  --h2-size: 45px;             /* tamaño de subtítulos (h2) */
+  --h3-size: 30px;             /* tamaño de títulos chicos (h3) */
 }
 
 html {
@@ -405,6 +450,7 @@ pre.w-code-block code > span {
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
   font-weight: bold;
+  font-family: var(--font-heading);
 }
 
 h1 {
@@ -2066,24 +2112,8 @@ textarea.w-input, textarea.w-select {
   display: grid;
 }
 
-:root {
-  --body-background: white;
-  --button-default: #434de7;
-  --box-borders: #f2f3ff;
-  --shadow: #1d01501a;
-  --text: black;
-  --color-on-cta: white;
-  --input-borders: #b7bbd1;
-  --gray: #efefef;
-
-  /* ╔══════════════════════════════════════════════════════════════════╗
-     ║  COLOR de las palabras clave: "Devil's Quadrangle (DQ)" y         ║
-     ║  "General, Time, Cost, Quality, Flexibility".                     ║
-     ║  Cambiá SOLO esta línea para probar otro color (ej: 'black',      ║
-     ║  '#49268f', '#d62828'). Afecta a todas esas palabras a la vez.   ║
-     ╚══════════════════════════════════════════════════════════════════╝ */
-  --keyword-color: #4950b1;
-}
+/* Los tokens de tema (colores y tipografía) se definen UNA sola vez en el
+   bloque :root del inicio de este archivo. No agregues variables aquí. */
 
 .w-layout-grid {
   grid-row-gap: 16px;
@@ -2193,7 +2223,7 @@ textarea.w-input, textarea.w-select {
 body {
   background-color: var(--body-background);
   color: #260606;
-  font-family: Outfit, sans-serif;
+  font-family: var(--font-body);
   font-size: 14px;
   line-height: 1.3;
 }
@@ -2252,7 +2282,7 @@ blockquote {
   align-items: center;
   width: 100%;
   margin: auto;
-  padding: 60px 2%;
+  padding: var(--section-padding-y) 2%;
   font-weight: 200;
   display: flex;
   position: static;
@@ -2274,9 +2304,9 @@ blockquote {
 }
 
 .main-section_home.second-color {
-  background-color: var(--box-borders);
-  padding-top: 60px;
-  padding-bottom: 60px;
+  background-color: var(--band-color);
+  padding-top: var(--band-padding-y);
+  padding-bottom: var(--band-padding-y);
 }
 
 .main-container_s1 {
@@ -2289,7 +2319,7 @@ blockquote {
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 1200px;
+  max-width: var(--content-max-width);
   margin: auto;
   padding: 0 20px;
   display: flex;
@@ -2381,8 +2411,8 @@ blockquote {
   margin-top: auto;
   margin-bottom: auto;
   padding-bottom: 40px;
-  font-family: Outfit, sans-serif;
-  font-size: 60px;
+  font-family: var(--font-heading);
+  font-size: var(--h1-size);
   font-weight: 700;
   line-height: 1;
 }
@@ -2610,7 +2640,7 @@ blockquote {
   color: var(--text);
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 45px;
+  font-size: var(--h2-size);
   font-weight: 600;
   line-height: 1.1;
 }
@@ -2742,7 +2772,7 @@ blockquote {
   color: var(--text);
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 30px;
+  font-size: var(--h3-size);
   font-weight: 600;
 }
 
@@ -2775,6 +2805,22 @@ blockquote {
 .card_small.no-borders {
   border-style: none;
   border-color: var(--input-borders);
+}
+
+/* Tarjetas del Devil's Quadrangle que ahora son enlaces a sus indicadores. */
+.card-link {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  cursor: pointer;
+  transition: transform .15s ease, box-shadow .15s ease, color .15s ease;
+}
+
+.card-link:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 24px 36px -16px var(--shadow);
+  color: var(--button-default);
 }
 
 .text-wrap_horizontal {
@@ -3320,8 +3366,13 @@ blockquote {
 }
 
 .navbar-link.w--current {
-  color: var(--button-default);
+  /* Negro como los demás links; el azul aparece solo en hover. */
+  color: var(--text);
   text-decoration: none;
+}
+
+.navbar-link.w--current:hover {
+  color: var(--button-default);
 }
 
 .navbar-link.for-dropdown {
@@ -3483,7 +3534,7 @@ blockquote {
 }
 
 .footer-outer-wrap.second-color {
-  background-color: var(--box-borders);
+  background-color: var(--band-color);
 }
 
 .footer-1 {
@@ -5810,7 +5861,7 @@ blockquote {
 }
 
 .main-section-copy.second-color {
-  background-color: var(--box-borders);
+  background-color: var(--band-color);
 }
 
 .main-section-copy.ppis {
@@ -6451,7 +6502,7 @@ blockquote {
 }
 
 .main-section_s.second-color {
-  background-color: var(--box-borders);
+  background-color: var(--band-color);
   padding-top: 158px;
   padding-bottom: 185px;
 }

@@ -1,0 +1,26 @@
+/* ============================================================
+   ESTILOS SOLO DE LA PÁGINA  FORMAL BASES   (ruta: /formal-bases )
+   ------------------------------------------------------------
+   Todo lo que escribas aquí afecta ÚNICAMENTE a Formal Bases.
+   Todo va "dentro" de .page-formal-bases.
+
+   Cómo activar un ejemplo: borra los símbolos de comentario
+   (las barras y asteriscos) que rodean la línea que quieras usar.
+   ============================================================ */
+
+.page-formal-bases {
+  /* Color de las franjas grises solo en Formal Bases */
+  /* --band-color: #eaeaea; */
+
+  /* Alto de las franjas solo en Formal Bases */
+  /* --band-padding-y: 90px; */
+
+  /* Ancho máximo del contenido solo en Formal Bases */
+  /* --content-max-width: 1000px; */
+
+  /* Tamaño de subtítulos solo en Formal Bases */
+  /* --h2-size: 40px; */
+}
+
+/* Reglas puntuales solo para Formal Bases */
+/* .page-formal-bases .h1 { font-size: 64px; } */
